@@ -1,0 +1,9 @@
+﻿  irp.c
+  devman.c
+  rdpdr_main.c
+C:\FreeRdp\freerdp-2.2.0\channels\rdpdr\client\rdpdr_main.c(253,28): warning C4244: “=”: 从“ULONG_PTR”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\rdpdr\client\rdpdr_main.c(1027,45): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\rdpdr\client\rdpdr_main.c(1131,35): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+  rdpdr_capabilities.c
+  正在生成代码...
+  rdpdr-client.vcxproj -> C:\FreeRdp\platform\Debug\rdpdr-client.lib

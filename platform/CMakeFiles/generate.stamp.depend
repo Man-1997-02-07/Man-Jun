@@ -1,0 +1,70 @@
+# CMake generation dependency list for this directory.
+C:/FreeRdp/freerdp-2.2.0/CMakeCPack.cmake
+C:/FreeRdp/freerdp-2.2.0/CMakeCPackOptions.cmake.in
+C:/FreeRdp/freerdp-2.2.0/CMakeLists.txt
+C:/FreeRdp/freerdp-2.2.0/LICENSE
+C:/FreeRdp/freerdp-2.2.0/buildflags.h.in
+C:/FreeRdp/freerdp-2.2.0/cmake/CheckCmakeCompat.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/ClangFormat.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/ComplexLibrary.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/ConfigOptions.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/EchoTarget.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/FindFeature.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/FindOpenH264.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/FindOpenSSL.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/GNUInstallDirsWrapper.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/GetGitRevisionDescription.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/InstallFreeRDPMan.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/MSVCRuntime.cmake
+C:/FreeRdp/freerdp-2.2.0/cmake/SetFreeRDPCMakeInstallDir.cmake
+C:/FreeRdp/freerdp-2.2.0/config.h.in
+C:/FreeRdp/platform/CMakeFiles/3.18.3/CMakeCCompiler.cmake
+C:/FreeRdp/platform/CMakeFiles/3.18.3/CMakeCXXCompiler.cmake
+C:/FreeRdp/platform/CMakeFiles/3.18.3/CMakeRCCompiler.cmake
+C:/FreeRdp/platform/CMakeFiles/3.18.3/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FeatureSummary.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/InstallRequiredSystemLibraries.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/TestBigEndian.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.18/Templates/CPackConfig.cmake.in

@@ -1,0 +1,5 @@
+﻿  drive_file.c
+  drive_main.c
+C:\FreeRdp\freerdp-2.2.0\channels\drive\client\drive_main.c(950,58): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  drive-client.vcxproj -> C:\FreeRdp\platform\Debug\drive-client.lib

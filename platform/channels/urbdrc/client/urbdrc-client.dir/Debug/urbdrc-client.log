@@ -1,0 +1,7 @@
+﻿  data_transfer.c
+C:\FreeRdp\freerdp-2.2.0\channels\urbdrc\client\data_transfer.c(767,71): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+  urbdrc_main.c
+C:\FreeRdp\freerdp-2.2.0\channels\urbdrc\client\urbdrc_main.c(328,68): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\urbdrc\client\urbdrc_main.c(1001,54): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+  正在生成代码...
+  urbdrc-client.vcxproj -> C:\FreeRdp\platform\Debug\urbdrc-client.lib

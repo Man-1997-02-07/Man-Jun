@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\channels\urbdrc\common\urbdrc-common.dir\Debug\urbdrc-common.lib
+C:\FreeRdp\platform\channels\urbdrc\common\urbdrc-common.dir\Debug\urbdrc-common.pdb

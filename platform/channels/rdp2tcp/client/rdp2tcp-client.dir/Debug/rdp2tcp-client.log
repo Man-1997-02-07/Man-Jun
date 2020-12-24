@@ -1,0 +1,3 @@
+﻿  rdp2tcp_main.c
+C:\FreeRdp\freerdp-2.2.0\channels\rdp2tcp\client\rdp2tcp_main.c(150,56): warning C4267: “函数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  rdp2tcp-client.vcxproj -> C:\FreeRdp\platform\Debug\rdp2tcp-client.lib

@@ -1,0 +1,272 @@
+Build started at 2020-11-12T14:01:20.150960
+Main binary: C:/msys64/mingw64/bin/python.exe
+Build Options: 
+Python system: Windows
+The Meson build system
+Version: 0.55.1
+Source dir: C:/FreeRdp/openh264-openh264v2.1.1
+Build dir: C:/FreeRdp/openh264-openh264v2.1.1/buildder
+Build type: native build
+Using 'PKG_CONFIG_PATH' from environment with value: 'C:\\msys64\\mingw64\\lib\\pkgconfig;C:\\msys64\\mingw64\\share\\pkgconfig'
+Using 'PKG_CONFIG_PATH' from environment with value: 'C:\\msys64\\mingw64\\lib\\pkgconfig;C:\\msys64\\mingw64\\share\\pkgconfig'
+Project name: openh264
+Project version: 2.1.1
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: cc C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckc.c -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 10.2.0 "cc (Rev1, Built by MSYS2 project) 10.2.0")
+C linker for the build machine: cc ld.bfd 2.35
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: c++ C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckcpp.cc -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 10.2.0 "c++ (Rev1, Built by MSYS2 project) 10.2.0")
+C++ linker for the build machine: c++ ld.bfd 2.35
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: cc C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckc.c -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 10.2.0 "cc (Rev1, Built by MSYS2 project) 10.2.0")
+C linker for the host machine: cc ld.bfd 2.35
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: c++ C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckcpp.cc -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 10.2.0 "c++ (Rev1, Built by MSYS2 project) 10.2.0")
+C++ linker for the host machine: c++ ld.bfd 2.35
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program nasm found: YES
+Running compile:
+Working directory:  C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmp0adeor2o
+Command line:  c++ C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmp0adeor2o/testfile.cpp -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmp0adeor2o/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wno-non-virtual-dtor -Wnon-virtual-dtor 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -Wno-non-virtual-dtor -Wnon-virtual-dtor: YES 
+Running compile:
+Working directory:  C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmpg7dwnvkg
+Command line:  c++ C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmpg7dwnvkg/testfile.cpp -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmpg7dwnvkg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wno-class-memaccess -Wclass-memaccess 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -Wno-class-memaccess -Wclass-memaccess: YES 
+Running compile:
+Working directory:  C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmp8xw3q9c6
+Command line:  c++ C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmp8xw3q9c6/testfile.cpp -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmp8xw3q9c6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wno-strict-aliasing -Wstrict-aliasing 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -Wno-strict-aliasing -Wstrict-aliasing: YES 
+Run-time dependency threads found: YES
+Pkg-config binary for MachineChoice.HOST is not cached.
+None of 'PKG_CONFIG' are defined in the environment, not changing global flags.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: C:\msys64\mingw64\bin/pkg-config.EXE (0.29.2)
+Determining dependency 'gtest_main' with pkg-config executable 'C:\\msys64\\mingw64\\bin/pkg-config.EXE'
+PKG_CONFIG_PATH: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --modversion gtest_main` -> 0
+1.10.0
+PKG_CONFIG_PATH: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --cflags gtest_main` -> 0
+-DGTEST_HAS_PTHREAD=0 -IC:/msys64/mingw64/include
+PKG_CONFIG_PATH: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE gtest_main --libs` -> 0
+-LC:/msys64/mingw64/lib -lgtest_main -lgtest
+PKG_CONFIG_PATH: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE gtest_main --libs` -> 0
+-LC:/msys64/mingw64/lib -lgtest_main -lgtest
+Using 'PKG_CONFIG_PATH' from environment with value: 'C:\\msys64\\mingw64\\lib\\pkgconfig;C:\\msys64\\mingw64\\share\\pkgconfig'
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmpk2p8hs6b
+Command line:  c++ C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmpk2p8hs6b/testfile.cpp -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmpk2p8hs6b/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmprcv708wa
+Command line:  c++ C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmprcv708wa/testfile.cpp -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmprcv708wa/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/
+programs: =C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/
+libraries: =C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../lib/;D:/msys64/mingw64/x86_64-w64-mingw32/lib/x86_64-w64-mingw32/10.2.0/;D:/msys64/mingw64/x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../;D:/msys64/mingw64/x86_64-w64-mingw32/lib/
+
+Compiler stderr:
+ 
+Run-time dependency GTest found: YES 1.10.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gtest' with pkg-config executable 'C:\\msys64\\mingw64\\bin/pkg-config.EXE'
+PKG_CONFIG_PATH: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --modversion gtest` -> 0
+1.10.0
+PKG_CONFIG_PATH: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE --cflags gtest` -> 0
+-DGTEST_HAS_PTHREAD=0 -IC:/msys64/mingw64/include
+PKG_CONFIG_PATH: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE gtest --libs` -> 0
+-LC:/msys64/mingw64/lib -lgtest
+PKG_CONFIG_PATH: C:\msys64\mingw64\lib\pkgconfig;C:\msys64\mingw64\share\pkgconfig
+Called `C:\msys64\mingw64\bin/pkg-config.EXE gtest --libs` -> 0
+-LC:/msys64/mingw64/lib -lgtest
+Using 'PKG_CONFIG_PATH' from environment with value: 'C:\\msys64\\mingw64\\lib\\pkgconfig;C:\\msys64\\mingw64\\share\\pkgconfig'
+Run-time dependency GTest found: YES 1.10.0
+Running compile:
+Working directory:  C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmp7nqxjp0x
+Command line:  c++ C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmp7nqxjp0x/testfile.cpp -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmp7nqxjp0x/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wno-dangling-else -Wdangling-else 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -Wno-dangling-else -Wdangling-else: YES 
+Adding test "api"
+Adding test "common"
+Adding test "decoder"
+Using cached compile:
+Cached command line:  c++ C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmp7nqxjp0x/testfile.cpp -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmp7nqxjp0x/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wno-dangling-else -Wdangling-else 
+
+Code:
+ extern int i;
+int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C++ supports arguments -Wno-dangling-else -Wdangling-else: YES (cached)
+Adding test "encoder"
+Adding test "processing"
+Message: do_install: true
+WARNING: Project targeting '>= 0.47' but tried to use feature introduced in '0.50.0': install arg in configure_file.
+Configuring openh264.pc using configuration
+Message: do_install: false
+Configuring openh264-static.pc using configuration
+Configuring codec_api.h using configuration
+include/wels/meson.build:4: WARNING: Got an empty configuration_data() object and found no substitutions in the input file 'codec_api.h'. If you want to copy a file to the build dir, use the 'copy:' keyword argument added in 0.47.0
+Configuring codec_app_def.h using configuration
+include/wels/meson.build:4: WARNING: Got an empty configuration_data() object and found no substitutions in the input file 'codec_app_def.h'. If you want to copy a file to the build dir, use the 'copy:' keyword argument added in 0.47.0
+Configuring codec_def.h using configuration
+include/wels/meson.build:4: WARNING: Got an empty configuration_data() object and found no substitutions in the input file 'codec_def.h'. If you want to copy a file to the build dir, use the 'copy:' keyword argument added in 0.47.0
+Configuring codec_ver.h using configuration
+include/wels/meson.build:4: WARNING: Got an empty configuration_data() object and found no substitutions in the input file 'codec_ver.h'. If you want to copy a file to the build dir, use the 'copy:' keyword argument added in 0.47.0
+Build targets in project: 14
+WARNING: Project specifies a minimum meson_version '>= 0.47' but uses features which were added in newer versions:
+ * 0.50.0: {'install arg in configure_file'}
+
+Found ninja.EXE-1.10.1 at C:\msys64\mingw64\bin/ninja.EXE
+Running compile:
+Working directory:  C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmpdid68wls
+Command line:  cc C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmpdid68wls/testfile.c -o C:/FreeRdp/openh264-openh264v2.1.1/buildder/meson-private/tmpdid68wls/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/
+programs: =C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/bin/
+libraries: =C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../x86_64-w64-mingw32/10.2.0/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../lib/;D:/msys64/mingw64/x86_64-w64-mingw32/lib/x86_64-w64-mingw32/10.2.0/;D:/msys64/mingw64/x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../;D:/msys64/mingw64/x86_64-w64-mingw32/lib/
+
+Compiler stderr:
+ 
+None of 'STRIP' are defined in the environment, not changing global flags.
+Command line for building ['codec/encoder/libencoder.a'] is long, using a response file
+Command line for building ['libopenh264-6.dll'] is long, using a response file
+Command line for building ['libopenh264.a'] is long, using a response file
+None of 'STRIP' are defined in the environment, not changing global flags.

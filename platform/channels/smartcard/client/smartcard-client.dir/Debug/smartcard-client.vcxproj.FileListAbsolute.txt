@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\smartcard-client.pdb
+C:\FreeRdp\platform\channels\smartcard\client\smartcard-client.dir\Debug\smartcard-client.pdb

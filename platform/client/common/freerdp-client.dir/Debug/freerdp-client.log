@@ -1,0 +1,13 @@
+﻿  client.c
+  cmdline.c
+  compatibility.c
+  file.c
+C:\FreeRdp\freerdp-2.2.0\client\common\file.c(996,9): warning C4068: 未知的杂注“GCC”
+C:\FreeRdp\freerdp-2.2.0\client\common\file.c(997,9): warning C4068: 未知的杂注“GCC”
+C:\FreeRdp\freerdp-2.2.0\client\common\file.c(1040,9): warning C4068: 未知的杂注“GCC”
+  geometry.c
+  tables.c
+  addin.c
+  正在生成代码...
+    正在创建库 C:/FreeRdp/platform/Debug/freerdp-client2.lib 和对象 C:/FreeRdp/platform/Debug/freerdp-client2.exp
+  freerdp-client.vcxproj -> C:\FreeRdp\platform\Debug\freerdp-client2.dll

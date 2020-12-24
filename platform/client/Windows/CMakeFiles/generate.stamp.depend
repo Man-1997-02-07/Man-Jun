@@ -1,0 +1,3 @@
+# CMake generation dependency list for this directory.
+C:/FreeRdp/freerdp-2.2.0/client/Windows/CMakeLists.txt
+C:/FreeRdp/freerdp-2.2.0/cmake/WindowsDLLVersion.rc.in

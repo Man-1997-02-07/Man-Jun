@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\urbdrc-client.pdb
+C:\FreeRdp\platform\channels\urbdrc\client\urbdrc-client.dir\Debug\urbdrc-client.pdb

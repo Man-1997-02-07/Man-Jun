@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\synch\address.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\synch\barrier.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\synch\critical.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\synch\event.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\synch\init.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\synch\mutex.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\synch\semaphore.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\synch\sleep.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\synch\timer.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\synch\wait.c">
+      <Filter>synch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\locale\locale.c">
+      <Filter>locale</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\library\library.c">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\file\generic.c">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\file\namedPipeClient.c">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\file\pattern.c">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\file\file.c">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\pipe\pipe.c">
+      <Filter>pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\interlocked\interlocked.c">
+      <Filter>interlocked</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\security\security.c">
+      <Filter>security</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\environment\environment.c">
+      <Filter>nt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crypto\hash.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crypto\rand.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crypto\cipher.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crypto\cert.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crypto\crypto.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\registry\registry_reg.c">
+      <Filter>registry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\registry\registry.c">
+      <Filter>registry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\credentials\credentials.c">
+      <Filter>credentials</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\path\path.c">
+      <Filter>path</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\path\shell.c">
+      <Filter>path</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\io\device.c">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\io\io.c">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\memory\memory.c">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\input\virtualkey.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\input\scancode.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\input\keycode.c">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\shell\shell.c">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\heap\heap.c">
+      <Filter>heap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\ini.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\sam.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\ntlm.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\image.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\print.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\stream.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\strlst.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\debug.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\winpr.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\cmdline.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\ssl.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\Queue.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\Stack.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\PubSub.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\BipBuffer.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\BitStream.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\Reference.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\ArrayList.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\LinkedList.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\HashTable.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\ListDictionary.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\CountdownEvent.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\BufferPool.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\ObjectPool.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\StreamPool.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\MessageQueue.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\MessagePipe.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trionan.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\triostr.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\wlog.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\Layout.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\Message.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\DataMessage.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\ImageMessage.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\PacketMessage.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\Appender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\FileAppender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\BinaryAppender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\CallbackAppender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\ConsoleAppender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\UdpAppender.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\error\error.c">
+      <Filter>error</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\timezone\timezone.c">
+      <Filter>timezone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\timezone\TimeZones.c">
+      <Filter>timezone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\timezone\WindowsZones.c">
+      <Filter>timezone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sysinfo\sysinfo.c">
+      <Filter>sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\pool\synch.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\pool\work.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\pool\timer.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\pool\io.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\pool\cleanup_group.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\pool\pool.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\pool\callback.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\pool\callback_cleanup.c">
+      <Filter>pool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\handle\handle.c">
+      <Filter>handle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\handle\nonehandle.c">
+      <Filter>handle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\thread\argv.c">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\thread\process.c">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\thread\processor.c">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\thread\thread.c">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\thread\tls.c">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\winsock\winsock.c">
+      <Filter>winsock</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\CredSSP\credssp.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_compute.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\Kerberos\kerberos.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\Negotiate\negotiate.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\Schannel\schannel_openssl.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\Schannel\schannel.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\sspi_winpr.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\sspi_export.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\sspi_gss.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\sspi.c">
+      <Filter>sspi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\winhttp\winhttp.c">
+      <Filter>winhttp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\asn1\asn1.c">
+      <Filter>asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspicli\sspicli.c">
+      <Filter>sspicli</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\alignment.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\conversion.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\buffer.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\memory.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\unicode.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\string.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\utf.c">
+      <Filter>crt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\bcrypt\bcrypt.c">
+      <Filter>bcrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\rpc.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_array.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_context.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_correlation.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_pointer.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_private.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_simple.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_string.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_structure.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_union.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\midl.c">
+      <Filter>rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\credui\credui.c">
+      <Filter>credui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\wtsapi\wtsapi.c">
+      <Filter>wtsapi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\wtsapi\wtsapi_win32.c">
+      <Filter>wtsapi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\dsparse\dsparse.c">
+      <Filter>dsparse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\wnd\wnd.c">
+      <Filter>wnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\smartcard\smartcard.c">
+      <Filter>smartcard</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\smartcard\smartcard_pcsc.c">
+      <Filter>smartcard</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\smartcard\smartcard_inspect.c">
+      <Filter>smartcard</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\smartcard\smartcard_winscard.c">
+      <Filter>smartcard</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\nt\nt.c">
+      <Filter>nt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\nt\ntstatus.c">
+      <Filter>nt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\clipboard\synthetic.c">
+      <Filter>clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\clipboard\clipboard.c">
+      <Filter>clipboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\synch\synch.h">
+      <Filter>synch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\pipe\pipe.h">
+      <Filter>pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crypto\crypto.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\registry\registry_reg.h">
+      <Filter>registry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\io\io.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\memory\memory.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\strio.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\triodef.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trionan.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\triop.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\triostr.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\wlog.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\Layout.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\Message.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\DataMessage.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\ImageMessage.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\PacketMessage.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\Appender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\FileAppender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\BinaryAppender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\CallbackAppender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\ConsoleAppender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\UdpAppender.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\timezone\TimeZones.h">
+      <Filter>timezone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\timezone\WindowsZones.h">
+      <Filter>timezone</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\pool\pool.h">
+      <Filter>pool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\handle\handle.h">
+      <Filter>handle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\handle\nonehandle.h">
+      <Filter>handle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\thread\thread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\CredSSP\credssp.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_compute.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\Kerberos\kerberos.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\Negotiate\negotiate.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\Schannel\schannel_openssl.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\Schannel\schannel.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\sspi_winpr.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\sspi_gss.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\sspi.h">
+      <Filter>sspi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\utf.h">
+      <Filter>crt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_array.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_context.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_correlation.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_pointer.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_private.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_simple.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_string.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_structure.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\rpc\ndr_union.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\wtsapi\wtsapi_win32.h">
+      <Filter>wtsapi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\wnd\wnd.h">
+      <Filter>wnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\smartcard\smartcard.h">
+      <Filter>smartcard</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\smartcard\smartcard_pcsc.h">
+      <Filter>smartcard</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\smartcard\smartcard_inspect.h">
+      <Filter>smartcard</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\smartcard\smartcard_winscard.h">
+      <Filter>smartcard</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\clipboard\clipboard.h">
+      <Filter>clipboard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\FreeRdp\platform\winpr\libwinpr\version.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{34E4CAA1-512B-3857-84B8-E60689221172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asn1">
+      <UniqueIdentifier>{53E6BCA1-AA52-3935-8122-795624F5F2CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bcrypt">
+      <UniqueIdentifier>{AEACACB2-1EFF-3CBC-99CB-5A3552F95CC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clipboard">
+      <UniqueIdentifier>{B75600F7-B4CA-363E-85CD-7ED0E68FF3B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="credentials">
+      <UniqueIdentifier>{DDFEE4E6-F863-3CC0-A23B-96D5B8D4A783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="credui">
+      <UniqueIdentifier>{1807B16B-0090-3233-9B97-C201A514879F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crt">
+      <UniqueIdentifier>{CDB58653-67AC-3C4D-86C2-E317365EFEB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{2382DC8C-D309-3925-A888-790A67CF935B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dsparse">
+      <UniqueIdentifier>{6AC6E1C8-6F0C-3C91-BCC6-4BD96CA20641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="error">
+      <UniqueIdentifier>{7A0C2757-C6A2-3C68-AEC4-26A48DAF1429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{19B92550-02FA-3B14-B645-0CCEE742BB24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handle">
+      <UniqueIdentifier>{F13BA93B-83AB-36C7-B0E5-736D4ABA0CFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="heap">
+      <UniqueIdentifier>{470A5608-DACE-3C68-BD37-B389D0580695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{3C9FB30F-A63A-31D4-8F9C-A6986EAAD17A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interlocked">
+      <UniqueIdentifier>{4D32D5E8-10A2-3AC3-B699-4293D056539F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{84462303-A39F-3825-A59B-5B645E394BFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{DC2F81A3-BE4E-36D5-8396-9A76CDA9A3FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="locale">
+      <UniqueIdentifier>{630D124B-504C-3253-AC13-844339C56FF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{BD85F7BF-76E0-3651-80BE-E41053E91718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nt">
+      <UniqueIdentifier>{76B40A06-FEB1-319C-9DA8-CD82C75A3B37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="path">
+      <UniqueIdentifier>{B6B06270-628E-31A5-8394-B374DBD874AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipe">
+      <UniqueIdentifier>{79218FCC-7047-3795-B791-68DE38D0F21A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pool">
+      <UniqueIdentifier>{D8F44420-4BA5-3CE2-9385-435890C82908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="registry">
+      <UniqueIdentifier>{96ADC1BF-0BA6-3495-8003-1BC25333D58F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rpc">
+      <UniqueIdentifier>{AC731086-2CCE-38DB-AEB3-161479D3A42B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{15895067-06F8-303B-872A-A20737A96A14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell">
+      <UniqueIdentifier>{B921F9C0-4BDD-3C6F-A5A6-643E5A723F74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="smartcard">
+      <UniqueIdentifier>{6FEAE5D1-42C8-3490-A162-55E5F05CAA50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sspi">
+      <UniqueIdentifier>{2C83DCB7-1919-32E5-A798-C4D5BE24CF2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sspicli">
+      <UniqueIdentifier>{2C3570F0-64D6-3A0A-AE58-28BBC4071305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="synch">
+      <UniqueIdentifier>{C028AC5D-5956-3095-BA97-C135B6609AFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sysinfo">
+      <UniqueIdentifier>{098869BF-A902-3AE2-9D02-6813FF2CD9D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{D0595F03-3949-33D6-8697-698F0F612A0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timezone">
+      <UniqueIdentifier>{C5BFA564-54B1-3028-AB7E-E5A3B5659E0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{DF980F85-6270-30EC-8A14-BEE8852FCCB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="winhttp">
+      <UniqueIdentifier>{AF7899D3-38F1-37AC-9B5A-4CD0BFB44767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="winsock">
+      <UniqueIdentifier>{1519AB6C-4C75-30F0-A712-FBBDEB9376D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wnd">
+      <UniqueIdentifier>{53F14D96-679F-3889-AFA0-78204B853644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wtsapi">
+      <UniqueIdentifier>{502426BA-1C6E-33AD-ABEE-092507095A87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

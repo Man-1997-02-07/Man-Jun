@@ -1,0 +1,254 @@
+﻿  address.c
+  barrier.c
+  critical.c
+  event.c
+  init.c
+  mutex.c
+  semaphore.c
+  sleep.c
+  wait.c
+  locale.c
+  library.c
+  generic.c
+  namedPipeClient.c
+  pattern.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\file\pattern.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  file.c
+  pipe.c
+  interlocked.c
+  security.c
+  environment.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\environment\environment.c(551,21): warning C4267: “return”: 从“size_t”转换到“DWORD”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\environment\environment.c(555,16): warning C4267: “return”: 从“size_t”转换到“DWORD”，可能丢失数据
+  hash.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crypto\hash.c(193,36): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  rand.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crypto\rand.c(42,28): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  cipher.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crypto\cipher.c(75,60): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crypto\cipher.c(102,77): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crypto\cipher.c(622,71): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  cert.c
+  crypto.c
+  registry_reg.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\registry\registry_reg.c(132,22): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\registry\registry_reg.c(229,38): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\registry\registry_reg.c(255,25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\registry\registry_reg.c(288,22): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  registry.c
+  credentials.c
+  path.c
+  device.c
+  virtualkey.c
+  scancode.c
+  keycode.c
+  heap.c
+  ini.c
+  sam.c
+  image.c
+  print.c
+  stream.c
+  strlst.c
+  debug.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\debug.c(437,32): warning C4267: “=”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\debug.c(497,41): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\debug.c(555,57): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  winpr.c
+  cmdline.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\cmdline.c(222,1): warning C4090: “初始化”: 不同的“const”限定符
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\cmdline.c(233,1): warning C4090: “初始化”: 不同的“const”限定符
+  ssl.c
+  Queue.c
+  Stack.c
+  PubSub.c
+  BipBuffer.c
+  BitStream.c
+  Reference.c
+  ArrayList.c
+  LinkedList.c
+  HashTable.c
+  ListDictionary.c
+  CountdownEvent.c
+  BufferPool.c
+  ObjectPool.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\collections\ObjectPool.c(86,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  StreamPool.c
+  MessageQueue.c
+  MessagePipe.c
+  lodepng.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(834,59): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(849,23): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(868,73): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(1593,28): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(1598,30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(1641,43): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(1680,83): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(1619,1): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(3836,51): warning C4267: “函数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(3829,1): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(4708,73): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(4765,39): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(4860,57): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\lodepng\lodepng.c(5903,1): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  trio.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(1371,9): warning C4068: 未知的杂注“GCC”
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(1372,9): warning C4068: 未知的杂注“GCC”
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(1662,9): warning C4068: 未知的杂注“GCC”
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(1670,9): warning C4068: 未知的杂注“GCC”
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(1671,9): warning C4068: 未知的杂注“GCC”
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(1909,9): warning C4068: 未知的杂注“GCC”
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(2752,32): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(2756,47): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(3870,28): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(5284,56): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(5313,74): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\trio.c(6612,23): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  trionan.c
+  triostr.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\triostr.c(860,58): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\triostr.c(1359,62): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\triostr.c(1460,26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\triostr.c(1465,30): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\triostr.c(1539,24): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\trio\triostr.c(1987,21): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  wlog.c
+  Layout.c
+  Message.c
+  DataMessage.c
+  ImageMessage.c
+  PacketMessage.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\utils\wlog\PacketMessage.c(224,40): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  Appender.c
+  FileAppender.c
+  BinaryAppender.c
+  CallbackAppender.c
+  ConsoleAppender.c
+  UdpAppender.c
+  error.c
+  timezone.c
+  TimeZones.c
+  WindowsZones.c
+  sysinfo.c
+  正在生成代码...
+  正在编译...
+  synch.c
+  work.c
+  cleanup_group.c
+  pool.c
+  callback.c
+  callback_cleanup.c
+  handle.c
+  nonehandle.c
+  argv.c
+  process.c
+  processor.c
+  thread.c
+  tls.c
+  winsock.c
+  credssp.c
+  ntlm_av_pairs.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.c(134,69): warning C4267: “return”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.c(290,72): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.c(572,30): warning C4267: “+=”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.c(581,30): warning C4267: “+=”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.c(590,30): warning C4267: “+=”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.c(599,30): warning C4267: “+=”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_av_pairs.c(608,30): warning C4267: “+=”: 从“size_t”转换到“ULONG”，可能丢失数据
+  ntlm_compute.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_compute.c(65,2): warning C4996: 'GetVersionExA': 被声明为已否决
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_compute.c(142,29): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  ntlm_message.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(265,27): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(267,61): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(345,27): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(347,61): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(465,61): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(624,27): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(626,61): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(711,45): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(777,64): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(781,27): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(990,64): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\NTLM\ntlm_message.c(997,27): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  kerberos.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\sspi\Kerberos\kerberos.c(543,48): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+  negotiate.c
+  正在生成代码...
+  正在编译...
+  schannel_openssl.c
+  schannel.c
+  sspi_winpr.c
+  sspi_export.c
+  sspi_gss.c
+  sspi.c
+  winhttp.c
+  asn1.c
+  sspicli.c
+  alignment.c
+  conversion.c
+  buffer.c
+  unicode.c
+  string.c
+  utf.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\utf.c(44,9): warning C4068: 未知的杂注“GCC”
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\utf.c(45,9): warning C4068: 未知的杂注“GCC”
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\utf.c(648,51): warning C4244: “=”: 从“unsigned long”转换到“WCHAR”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\utf.c(650,48): warning C4244: “=”: 从“unsigned long”转换到“WCHAR”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\crt\utf.c(879,9): warning C4068: 未知的杂注“GCC”
+  bcrypt.c
+  rpc.c
+  ndr.c
+  ndr_array.c
+  ndr_context.c
+  正在生成代码...
+  正在编译...
+  ndr_correlation.c
+  ndr_pointer.c
+  ndr_private.c
+  ndr_simple.c
+  ndr_string.c
+  ndr_structure.c
+  ndr_union.c
+  midl.c
+  credui.c
+  wtsapi.c
+  wtsapi_win32.c
+  dsparse.c
+  wnd.c
+  smartcard.c
+  smartcard_pcsc.c
+  smartcard_inspect.c
+  smartcard_winscard.c
+  nt.c
+  ntstatus.c
+  synthetic.c
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\clipboard\synthetic.c(56,61): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\clipboard\synthetic.c(173,57): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\clipboard\synthetic.c(178,46): warning C4244: “函数”: 从“INT64”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\clipboard\synthetic.c(179,16): warning C4244: “=”: 从“INT64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\clipboard\synthetic.c(194,53): warning C4244: “函数”: 从“INT64”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\clipboard\synthetic.c(195,16): warning C4244: “=”: 从“INT64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\clipboard\synthetic.c(343,46): warning C4244: “函数”: 从“INT64”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\libwinpr\clipboard\synthetic.c(349,59): warning C4244: “函数”: 从“INT64”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  clipboard.c
+  正在生成代码...
+  timer.c
+  shell.c
+  io.c
+  memory.c
+  shell.c
+  ntlm.c
+  timer.c
+  io.c
+  ntlm.c
+  memory.c
+    正在创建库 C:/FreeRdp/platform/Debug/winpr2.lib 和对象 C:/FreeRdp/platform/Debug/winpr2.exp
+  winpr.vcxproj -> C:\FreeRdp\platform\Debug\winpr2.dll

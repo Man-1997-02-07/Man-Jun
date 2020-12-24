@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\rdpsnd-client-winmm.pdb
+C:\FreeRdp\platform\channels\rdpsnd\client\winmm\rdpsnd-client-winmm.dir\Debug\rdpsnd-client-winmm.pdb

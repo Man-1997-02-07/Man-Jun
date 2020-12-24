@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\rdpsnd-client-fake.pdb
+C:\FreeRdp\platform\channels\rdpsnd\client\fake\rdpsnd-client-fake.dir\Debug\rdpsnd-client-fake.pdb

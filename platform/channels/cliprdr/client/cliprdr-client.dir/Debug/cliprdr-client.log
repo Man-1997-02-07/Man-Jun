@@ -1,0 +1,10 @@
+﻿  cliprdr_format.c
+C:\FreeRdp\freerdp-2.2.0\channels\cliprdr\client\cliprdr_format.c(343,42): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  cliprdr_main.c
+C:\FreeRdp\freerdp-2.2.0\channels\cliprdr\client\cliprdr_main.c(75,19): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  cliprdr_common.c
+C:\FreeRdp\freerdp-2.2.0\channels\cliprdr\cliprdr_common.c(423,38): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\cliprdr\cliprdr_common.c(507,68): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\cliprdr\cliprdr_common.c(534,68): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  cliprdr-client.vcxproj -> C:\FreeRdp\platform\Debug\cliprdr-client.lib

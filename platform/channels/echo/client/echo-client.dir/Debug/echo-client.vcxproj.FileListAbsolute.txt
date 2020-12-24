@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\echo-client.pdb
+C:\FreeRdp\platform\channels\echo\client\echo-client.dir\Debug\echo-client.pdb

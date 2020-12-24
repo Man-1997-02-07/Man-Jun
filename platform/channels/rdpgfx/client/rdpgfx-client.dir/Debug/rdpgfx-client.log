@@ -1,0 +1,12 @@
+﻿  rdpgfx_main.c
+C:\FreeRdp\freerdp-2.2.0\channels\rdpgfx\client\rdpgfx_main.c(907,43): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\rdpgfx\client\rdpgfx_main.c(908,26): warning C4244: “=”: 从“UINT64”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\rdpgfx\client\rdpgfx_main.c(1754,91): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\rdpgfx\client\rdpgfx_main.c(1970,40): warning C4244: “=”: 从“ULONG_PTR”转换到“UINT16”，可能丢失数据
+  rdpgfx_codec.c
+C:\FreeRdp\freerdp-2.2.0\channels\rdpgfx\client\rdpgfx_codec.c(227,53): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\rdpgfx\client\rdpgfx_codec.c(245,58): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\rdpgfx\client\rdpgfx_codec.c(248,58): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  rdpgfx_common.c
+  正在生成代码...
+  rdpgfx-client.vcxproj -> C:\FreeRdp\platform\Debug\rdpgfx-client.lib

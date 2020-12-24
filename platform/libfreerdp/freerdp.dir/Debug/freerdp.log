@@ -1,0 +1,487 @@
+﻿  passphrase.c
+  pcap.c
+  profiler.c
+  ringbuffer.c
+  signal.c
+  stopwatch.c
+  addin.c
+  settings_getters.c
+  settings_str.c
+  assistance.c
+  clipping.c
+  dc.c
+  drawing.c
+  line.c
+  pen.c
+  shape.c
+  gfx.c
+  video.c
+  gdi.c
+  pointer.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\cache\pointer.c(108,41): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\cache\pointer.c(119,41): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  nine_grid.c
+  offscreen.c
+  palette.c
+  glyph.c
+  cache.c
+  er.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\er.c(70,37): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  der.c
+  ber.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\ber.c(74,35): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\ber.c(81,31): warning C4267: “函数”: 从“size_t”转换到“UINT8”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\ber.c(85,30): warning C4267: “函数”: 从“size_t”转换到“UINT8”，可能丢失数据
+  per.c
+  base64.c
+  crypto.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\crypto.c(166,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\crypto.c(310,1): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\crypto.c(793,36): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  tls.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\tls.c(221,35): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\tls.c(618,66): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\tls.c(940,89): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\tls.c(982,91): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\tls.c(1320,40): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\tls.c(1334,23): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\tls.c(1342,59): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\tls.c(1359,27): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+  opensslcompat.c
+  keyboard_layout.c
+  keyboard.c
+  locale.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\locale\locale.c(670,37): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\locale\locale.c(684,30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  bulk.c
+  activation.c
+  gcc.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gcc.c(276,55): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gcc.c(291,81): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gcc.c(378,81): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gcc.c(1511,42): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  mcs.c
+  正在生成代码...
+  正在编译...
+  nla.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(255,78): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(912,76): warning C4267: “函数”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(1713,54): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(2075,51): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(2079,35): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(2089,50): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(2093,34): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(2104,52): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(2108,36): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(2129,55): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(2133,39): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nla.c(2503,39): warning C4133: “=”: 从“LPSTR”到“LPTSTR”的类型不兼容
+  nego.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\nego.c(740,51): warning C4267: “函数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  info.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\info.c(98,52): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\info.c(499,59): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  input.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\input.c(302,28): warning C4244: “函数”: 从“UINT16”转换到“UINT8”，可能丢失数据
+  license.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(244,25): warning C4133: “函数”: 从“char *”到“LPCWSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(248,30): warning C4133: “函数”: 从“char *”到“LPCWSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(248,40): warning C4133: “函数”: 从“char *”到“LPCWSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(285,24): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(292,36): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(389,53): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(416,49): warning C4267: “=”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(710,22): warning C4267: “=”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(737,58): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(756,65): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(1469,56): warning C4267: “=”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(1471,89): warning C4267: “=”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\license.c(1545,57): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  errinfo.c
+  errbase.c
+  errconnect.c
+  security.c
+  orders.c
+  freerdp.c
+  client.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\client.c(295,89): warning C4267: “函数”: 从“size_t”转换到“UINT”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\client.c(301,56): warning C4267: “函数”: 从“size_t”转换到“UINT”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\client.c(339,89): warning C4267: “函数”: 从“size_t”转换到“UINT”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\client.c(345,56): warning C4267: “函数”: 从“size_t”转换到“UINT”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\client.c(387,90): warning C4267: “函数”: 从“size_t”转换到“UINT”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\client.c(393,57): warning C4267: “函数”: 从“size_t”转换到“UINT”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\client.c(475,89): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\client.c(476,52): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\client.c(482,53): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\client.c(482,64): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+  server.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\server.c(253,51): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\server.c(394,73): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\server.c(1186,51): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\server.c(1236,56): warning C4267: “函数”: 从“size_t”转换到“ULONG”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\server.c(1367,42): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\server.c(1373,34): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  codecs.c
+  metrics.c
+  capabilities.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(1890,37): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(1985,37): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2062,37): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2172,37): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2268,37): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2327,37): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2389,37): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2515,37): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2582,37): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2646,37): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2783,50): warning C4090: “函数”: 不同的“const”限定符
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2881,61): warning C4090: “函数”: 不同的“const”限定符
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2888,54): warning C4090: “函数”: 不同的“const”限定符
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(2911,53): warning C4090: “函数”: 不同的“const”限定符
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\capabilities.c(3205,37): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+  connection.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\connection.c(273,44): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\connection.c(281,33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  redirection.c
+  autodetect.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\autodetect.c(272,34): warning C4244: “函数”: 从“UINT64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\autodetect.c(360,94): warning C4244: “=”: 从“ULONGLONG”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\autodetect.c(475,81): warning C4244: “=”: 从“UINT64”转换到“UINT32”，可能丢失数据
+  heartbeat.c
+  正在生成代码...
+  正在编译...
+  multitransport.c
+  timezone.c
+  rdp.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\rdp.c(540,48): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\rdp.c(563,48): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\rdp.c(629,32): warning C4267: “=”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\rdp.c(659,32): warning C4267: “=”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\rdp.c(697,33): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\rdp.c(701,54): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\rdp.c(702,51): warning C4267: “函数”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\rdp.c(705,45): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\rdp.c(736,32): warning C4267: “=”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\rdp.c(1212,23): warning C4244: “=”: 从“INT64”转换到“UINT16”，可能丢失数据
+  tcp.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\tcp.c(498,63): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\tcp.c(585,46): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\tcp.c(964,60): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\tcp.c(987,15): warning C4244: “return”: 从“SOCKET”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\tcp.c(1146,74): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\tcp.c(1163,85): warning C4267: “函数”: 从“size_t”转换到“socklen_t”，可能丢失数据
+  proxy.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\proxy.c(338,13): warning C4244: “=”: 从“long”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\proxy.c(349,33): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\proxy.c(353,33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\proxy.c(421,73): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\proxy.c(446,92): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\proxy.c(640,19): warning C4267: “=”: 从“size_t”转换到“BYTE”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\proxy.c(645,52): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\proxy.c(589,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\proxy.c(590,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  tpdu.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\tpdu.c(116,30): warning C4244: “函数”: 从“UINT16”转换到“UINT8”，可能丢失数据
+  tpkt.c
+  fastpath.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\fastpath.c(257,43): warning C4267: “=”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\fastpath.c(959,32): warning C4267: “=”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\fastpath.c(1100,37): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  surface.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\surface.c(172,48): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\surface.c(207,36): warning C4244: “函数”: 从“const UINT16”转换到“UINT8”，可能丢失数据
+  transport.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\transport.c(251,8): warning C4013: “close”未定义；假设外部返回 int
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\transport.c(339,82): warning C4133: “函数”: 从“LPTSTR”到“LPSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\transport.c(674,86): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\transport.c(701,74): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\transport.c(711,74): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\transport.c(737,72): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\transport.c(757,73): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\transport.c(782,86): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\transport.c(792,25): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\transport.c(817,24): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\transport.c(828,68): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  update.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(944,33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1393,32): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1450,32): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1505,32): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1608,30): warning C4267: “=”: 从“size_t”转换到“INT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1656,30): warning C4267: “=”: 从“size_t”转换到“INT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1697,30): warning C4267: “=”: 从“size_t”转换到“INT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1720,48): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1737,30): warning C4267: “=”: 从“size_t”转换到“INT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1759,48): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1776,30): warning C4267: “=”: 从“size_t”转换到“INT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1799,48): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1816,30): warning C4267: “=”: 从“size_t”转换到“INT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1838,48): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1855,30): warning C4267: “=”: 从“size_t”转换到“INT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1883,48): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(1925,48): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(2258,69): warning C4267: “+=”: 从“size_t”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\update.c(2264,73): warning C4267: “+=”: 从“size_t”转换到“UINT16”，可能丢失数据
+  message.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\message.c(1656,1): warning C4267: “初始化”: 从“size_t”转换到“const UINT32”，可能丢失数据
+  channels.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\channels.c(102,30): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\channels.c(210,83): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+  window.c
+  listener.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\listener.c(85,67): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\listener.c(111,61): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\listener.c(265,58): warning C4312: “类型强制转换”: 从“long”转换到更大的“void *”
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\listener.c(311,93): warning C4244: “=”: 从“SOCKET”转换到“int”，可能丢失数据
+  peer.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\peer.c(51,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  display.c
+  tsg.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\tsg.c(1084,30): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\tsg.c(1088,30): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\tsg.c(1090,30): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\tsg.c(1093,32): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\tsg.c(1430,30): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\tsg.c(1432,30): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+  rdg.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rdg.c(298,57): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rdg.c(622,65): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rdg.c(938,66): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rdg.c(938,91): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rdg.c(939,49): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rdg.c(942,76): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+  rpc.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc.c(324,64): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc.c(346,51): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  rpc_bind.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_bind.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_bind.c(170,67): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_bind.c(170,92): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_bind.c(171,49): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_bind.c(174,70): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+  rpc_client.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_client.c(115,31): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_client.c(198,84): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_client.c(220,84): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_client.c(255,80): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_client.c(575,87): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_client.c(599,82): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_client.c(864,64): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_client.c(944,33): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_client.c(964,18): warning C4267: “+=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_client.c(981,18): warning C4267: “+=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rpc_client.c(989,28): warning C4244: “=”: 从“SSIZE_T”转换到“unsigned long”，可能丢失数据
+  rpc_fault.c
+  rts.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts.c(437,84): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts.c(489,64): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts.c(541,64): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts.c(577,64): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts.c(659,64): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts.c(703,60): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts.c(715,67): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts.c(762,83): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts.c(785,88): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts.c(826,88): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+  rts_signature.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts_signature.c(315,68): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\rts_signature.c(352,68): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+  ntlm.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\ntlm.c(88,46): warning C4133: “函数”: 从“LPCTSTR”到“const char *”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\ntlm.c(88,54): warning C4133: “函数”: 从“LPCTSTR”到“const char *”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\ntlm.c(88,64): warning C4133: “函数”: 从“LPCTSTR”到“const char *”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\ntlm.c(144,39): warning C4133: “函数”: 从“LPCTSTR”到“LPCSTR”的类型不兼容
+  http.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\http.c(746,12): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\http.c(887,55): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  ncacn_http.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\ncacn_http.c(100,75): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\ncacn_http.c(119,48): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\ncacn_http.c(198,61): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\ncacn_http.c(198,86): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\ncacn_http.c(199,49): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\ncacn_http.c(204,71): warning C4133: “函数”: 从“char *”到“LPCTSTR”的类型不兼容
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\gateway\ncacn_http.c(272,48): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  dsp.c
+  color.c
+  audio.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\audio.c(43,49): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\audio.c(57,63): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  planar.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\planar.c(636,83): warning C4244: “函数”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\planar.c(647,82): warning C4244: “函数”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\planar.c(654,82): warning C4244: “函数”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\planar.c(661,82): warning C4244: “函数”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\planar.c(995,31): warning C4244: “return”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\planar.c(1385,25): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+  interleaved.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\interleaved.c(455,87): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+  progressive.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\progressive.c(1725,25): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  rfx_decode.c
+  rfx_dwt.c
+  rfx_encode.c
+  rfx_quantization.c
+  rfx_rlgr.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx_rlgr.c(188,44): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx_rlgr.c(201,45): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx_rlgr.c(251,44): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx_rlgr.c(264,45): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx_rlgr.c(340,28): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx_rlgr.c(362,44): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx_rlgr.c(375,45): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx_rlgr.c(546,26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  rfx.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx.c(269,3): warning C4996: 'GetVersionExA': 被声明为已否决
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx.c(1181,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx.c(1182,26): warning C4018: “<”: 有符号/无符号不匹配
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\rfx.c(1761,41): warning C4244: “函数”: 从“UINT16”转换到“UINT8”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  nsc.c
+  nsc_encode.c
+  ncrush.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\ncrush.c(2243,45): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\ncrush.c(2286,25): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\ncrush.c(2419,60): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\ncrush.c(2536,77): warning C4244: “函数”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\ncrush.c(2543,45): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\ncrush.c(2776,31): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\ncrush.c(2790,52): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+  xcrush.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\xcrush.c(337,58): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\xcrush.c(484,56): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\xcrush.c(485,75): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\xcrush.c(731,57): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\xcrush.c(841,33): warning C4267: “+=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\xcrush.c(870,52): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\xcrush.c(871,45): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+  mppc.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\mppc.c(751,50): warning C4244: “=”: 从“__int64”转换到“UINT32”，可能丢失数据
+  zgfx.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\zgfx.c(161,35): warning C4267: “+=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\zgfx.c(169,37): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\zgfx.c(255,32): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\zgfx.c(262,64): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\zgfx.c(531,53): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\zgfx.c(560,37): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  clear.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\clear.c(1017,9): warning C4996: 'nsc_context_set_pixel_format': 被声明为已否决
+  jpeg.c
+  h264.c
+  yuv.c
+  h264_openh264.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\h264_openh264.c(192,56): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\h264_openh264.c(271,59): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  h264_mf.c
+  prim_add.c
+  prim_andor.c
+  prim_alphaComp.c
+  prim_colors.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_colors.c(105,60): warning C4244: “函数”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_colors.c(105,69): warning C4244: “函数”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_colors.c(105,78): warning C4244: “函数”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_colors.c(198,26): warning C4244: “函数”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_colors.c(199,26): warning C4244: “函数”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_colors.c(200,26): warning C4244: “函数”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_colors.c(289,55): warning C4244: “函数”: 从“const INT16”转换到“BYTE”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_colors.c(289,61): warning C4244: “函数”: 从“const INT16”转换到“BYTE”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_colors.c(289,67): warning C4244: “函数”: 从“const INT16”转换到“BYTE”，可能丢失数据
+  prim_copy.c
+  prim_set.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_set.c(70,67): warning C4267: “函数”: 从“size_t”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_set.c(106,67): warning C4267: “函数”: 从“size_t”转换到“INT32”，可能丢失数据
+  prim_shift.c
+  prim_sign.c
+  正在生成代码...
+  正在编译...
+  prim_YUV.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_YUV.c(608,51): warning C4244: “return”: 从“long”转换到“BYTE”，可能丢失数据
+  prim_YCoCg.c
+  primitives.c
+  正在生成代码...
+  settings.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\common\settings.c(884,58): warning C4244: “函数”: 从“ULONGLONG”转换到“UINT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\common\settings.c(891,57): warning C4244: “函数”: 从“LONGLONG”转换到“INT16”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\common\settings.c(897,58): warning C4244: “函数”: 从“ULONGLONG”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\common\settings.c(903,57): warning C4244: “函数”: 从“LONGLONG”转换到“INT32”，可能丢失数据
+  bitmap.c
+  brush.c
+  region.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(98,13): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(99,13): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(161,12): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(162,12): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(199,12): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(200,12): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(229,11): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(240,11): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(278,9): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(279,9): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(306,17): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(307,18): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(326,30): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(327,29): warning C4244: “=”: 从“INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(335,18): warning C4244: “=”: 从“const INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(340,19): warning C4244: “=”: 从“const INT64”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\gdi\region.c(630,29): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  graphics.c
+  brush.c
+  bitmap.c
+  certificate.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\certificate.c(187,30): warning C4244: “函数”: 从“UINT64”转换到“DWORD”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\certificate.c(315,30): warning C4244: “函数”: 从“UINT64”转换到“DWORD”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\certificate.c(356,52): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\certificate.c(359,50): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\certificate.c(440,30): warning C4244: “函数”: 从“UINT64”转换到“DWORD”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\certificate.c(544,35): warning C4244: “函数”: 从“UINT64”转换到“DWORD”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\certificate.c(665,32): warning C4267: “函数”: 从“size_t”转换到“DWORD”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\certificate.c(700,81): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\crypto\certificate.c(705,78): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  settings.c
+  graphics.c
+  certificate.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\core\certificate.c(718,61): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  bitmap.c
+  region.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\region.c(452,54): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\codec\region.c(482,33): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+cl : 命令行 warning D9002: 忽略未知选项“/arch:SSE2”
+  rfx_sse2.c
+  nsc_sse2.c
+  prim_colors_opt.c
+  prim_set_opt.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_set_opt.c(64,19): warning C4267: “-=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_set_opt.c(105,19): warning C4267: “-=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_set_opt.c(160,19): warning C4267: “-=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_set_opt.c(201,19): warning C4267: “-=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  prim_add_opt.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_add_opt.c(43,1): warning C4267: “-=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  prim_alphaComp_opt.c
+  prim_andor_opt.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_andor_opt.c(42,1): warning C4267: “-=”: 从“size_t”转换到“INT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_andor_opt.c(43,1): warning C4267: “-=”: 从“size_t”转换到“INT32”，可能丢失数据
+  prim_shift_opt.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_shift_opt.c(42,1): warning C4267: “-=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_shift_opt.c(45,1): warning C4267: “-=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_shift_opt.c(48,1): warning C4267: “-=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_shift_opt.c(51,1): warning C4267: “-=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  prim_sign_opt.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_sign_opt.c(64,19): warning C4267: “-=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_sign_opt.c(133,19): warning C4267: “-=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  prim_YCoCg_opt.c
+  prim_YUV_ssse3.c
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_YUV_ssse3.c(270,29): warning C4311: “类型强制转换”: 从“const BYTE *const ”到“unsigned long”的指针截断
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_YUV_ssse3.c(270,60): warning C4311: “类型强制转换”: 从“const BYTE *const ”到“unsigned long”的指针截断
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_YUV_ssse3.c(270,91): warning C4311: “类型强制转换”: 从“const BYTE *const ”到“unsigned long”的指针截断
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_YUV_ssse3.c(451,45): warning C4311: “类型强制转换”: 从“const BYTE *”到“unsigned long”的指针截断
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_YUV_ssse3.c(710,45): warning C4311: “类型强制转换”: 从“const BYTE *”到“unsigned long”的指针截断
+C:\FreeRdp\freerdp-2.2.0\libfreerdp\primitives\prim_YUV_ssse3.c(1007,45): warning C4311: “类型强制转换”: 从“const BYTE *”到“unsigned long”的指针截断
+  正在生成代码...
+    正在创建库 C:/FreeRdp/platform/Debug/freerdp2.lib 和对象 C:/FreeRdp/platform/Debug/freerdp2.exp
+  freerdp.vcxproj -> C:\FreeRdp\platform\Debug\freerdp2.dll

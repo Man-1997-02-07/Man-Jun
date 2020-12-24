@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\rail-client.pdb
+C:\FreeRdp\platform\channels\rail\client\rail-client.dir\Debug\rail-client.pdb

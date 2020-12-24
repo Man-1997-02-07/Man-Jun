@@ -1,0 +1,6 @@
+﻿  rdpei_main.c
+C:\FreeRdp\freerdp-2.2.0\channels\rdpei\client\rdpei_main.c(377,30): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\rdpei\client\rdpei_main.c(738,29): warning C4244: “=”: 从“INT64”转换到“int”，可能丢失数据
+  rdpei_common.c
+  正在生成代码...
+  rdpei-client.vcxproj -> C:\FreeRdp\platform\Debug\rdpei-client.lib

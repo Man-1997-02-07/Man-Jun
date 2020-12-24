@@ -1,0 +1,4 @@
+﻿  video_main.c
+C:\FreeRdp\freerdp-2.2.0\channels\video\client\video_main.c(252,57): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\video\client\video_main.c(791,82): warning C4267: “函数”: 从“size_t”转换到“UINT32”，可能丢失数据
+  video-client.vcxproj -> C:\FreeRdp\platform\Debug\video-client.lib

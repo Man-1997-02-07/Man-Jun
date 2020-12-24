@@ -1,0 +1,5 @@
+﻿  printer_main.c
+C:\FreeRdp\freerdp-2.2.0\channels\printer\client\printer_main.c(121,45): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\printer\client\printer_main.c(129,38): warning C4267: “函数”: 从“size_t”转换到“DWORD”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\printer\client\printer_main.c(312,45): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  printer-client.vcxproj -> C:\FreeRdp\platform\Debug\printer-client.lib

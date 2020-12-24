@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\cliprdr-client.pdb
+C:\FreeRdp\platform\channels\cliprdr\client\cliprdr-client.dir\Debug\cliprdr-client.pdb

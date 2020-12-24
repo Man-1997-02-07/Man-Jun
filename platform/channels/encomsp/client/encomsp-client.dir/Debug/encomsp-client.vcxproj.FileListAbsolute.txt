@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\encomsp-client.pdb
+C:\FreeRdp\platform\channels\encomsp\client\encomsp-client.dir\Debug\encomsp-client.pdb

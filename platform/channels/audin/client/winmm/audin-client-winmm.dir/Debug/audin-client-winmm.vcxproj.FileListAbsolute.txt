@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\audin-client-winmm.pdb
+C:\FreeRdp\platform\channels\audin\client\winmm\audin-client-winmm.dir\Debug\audin-client-winmm.pdb

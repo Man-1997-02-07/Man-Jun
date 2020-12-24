@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\geometry-client.pdb
+C:\FreeRdp\platform\channels\geometry\client\geometry-client.dir\Debug\geometry-client.pdb

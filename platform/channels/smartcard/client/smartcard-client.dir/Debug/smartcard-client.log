@@ -1,0 +1,6 @@
+﻿  smartcard_main.c
+  smartcard_pack.c
+  smartcard_operations.c
+C:\FreeRdp\freerdp-2.2.0\channels\smartcard\client\smartcard_operations.c(2775,87): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  正在生成代码...
+  smartcard-client.vcxproj -> C:\FreeRdp\platform\Debug\smartcard-client.lib

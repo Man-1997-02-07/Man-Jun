@@ -1,0 +1,8 @@
+﻿  libusb_udevman.c
+  libusb_udevice.c
+C:\FreeRdp\freerdp-2.2.0\channels\urbdrc\client\libusb\libusb_udevice.c(171,42): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\urbdrc\client\libusb\libusb_udevice.c(804,34): warning C4090: “=”: 不同的“const”限定符
+C:\FreeRdp\freerdp-2.2.0\channels\urbdrc\client\libusb\libusb_udevice.c(1691,76): warning C4244: “函数”: 从“UINT16”转换到“BYTE”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\urbdrc\client\libusb\libusb_udevice.c(1691,88): warning C4244: “函数”: 从“UINT16”转换到“BYTE”，可能丢失数据
+  正在生成代码...
+  urbdrc-client-libusb.vcxproj -> C:\FreeRdp\platform\Debug\urbdrc-client-libusb.lib

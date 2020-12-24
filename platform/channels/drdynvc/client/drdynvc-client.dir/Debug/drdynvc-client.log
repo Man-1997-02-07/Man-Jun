@@ -1,0 +1,10 @@
+﻿  drdynvc_main.c
+C:\FreeRdp\freerdp-2.2.0\channels\drdynvc\client\drdynvc_main.c(157,62): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\drdynvc\client\drdynvc_main.c(160,49): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\drdynvc\client\drdynvc_main.c(425,61): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\drdynvc\client\drdynvc_main.c(506,87): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\drdynvc\client\drdynvc_main.c(855,43): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\drdynvc\client\drdynvc_main.c(880,45): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\drdynvc\client\drdynvc_main.c(1623,61): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\channels\drdynvc\client\drdynvc_main.c(1655,61): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  drdynvc-client.vcxproj -> C:\FreeRdp\platform\Debug\drdynvc-client.lib

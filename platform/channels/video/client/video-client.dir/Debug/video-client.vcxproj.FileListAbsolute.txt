@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\video-client.pdb
+C:\FreeRdp\platform\channels\video\client\video-client.dir\Debug\video-client.pdb

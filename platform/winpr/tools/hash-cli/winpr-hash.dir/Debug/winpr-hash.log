@@ -1,0 +1,5 @@
+﻿  hash.c
+C:\FreeRdp\freerdp-2.2.0\winpr\tools\hash-cli\hash.c(157,27): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\tools\hash-cli\hash.c(158,35): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\winpr\tools\hash-cli\hash.c(159,46): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  winpr-hash.vcxproj -> C:\FreeRdp\platform\Debug\winpr-hash.exe

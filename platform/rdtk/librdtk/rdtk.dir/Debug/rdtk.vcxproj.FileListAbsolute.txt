@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\rdtk.pdb
+C:\FreeRdp\platform\rdtk\librdtk\rdtk.dir\Debug\rdtk.pdb

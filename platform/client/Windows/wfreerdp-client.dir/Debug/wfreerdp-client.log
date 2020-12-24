@@ -1,0 +1,35 @@
+﻿  wf_gdi.c
+  wf_event.c
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_event.c(577,6): warning C4996: 'freerdp_set_param_bool': 被声明为已否决
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_event.c(700,14): warning C4101: “context”: 未引用的局部变量
+  wf_channels.c
+  wf_graphics.c
+  wf_cliprdr.c
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_cliprdr.c(639,26): warning C4018: “<”: 有符号/无符号不匹配
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_cliprdr.c(796,17): warning C4018: “<”: 有符号/无符号不匹配
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_cliprdr.c(1330,49): warning C4311: “类型强制转换”: 从“const void *”到“UINT32”的指针截断
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_cliprdr.c(1911,61): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_cliprdr.c(1916,83): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_cliprdr.c(2124,67): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_cliprdr.c(2126,53): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_cliprdr.c(2139,40): warning C4267: “=”: 从“size_t”转换到“UINT”，可能丢失数据
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_cliprdr.c(2175,25): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+  wf_rail.c
+  wf_client.c
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_client.c(261,53): warning C4311: “类型强制转换”: 从“HKL”到“int”的指针截断
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_client.c(241,3): warning C4996: 'freerdp_set_param_uint32': 被声明为已否决
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_client.c(246,3): warning C4996: 'freerdp_set_param_uint32': 被声明为已否决
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_client.c(260,2): warning C4996: 'freerdp_set_param_uint32': 被声明为已否决
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_client.c(373,41): warning C4311: “类型强制转换”: 从“void *”到“DWORD”的指针截断
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_client.c(850,20): warning C4311: “类型强制转换”: 从“void *”到“DWORD”的指针截断
+  wf_floatbar.c
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_floatbar.c(126,71): warning C4047: “==”:“UINT_PTR”与“void *”的间接级别不同
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_floatbar.c(143,63): warning C4047: “==”:“UINT_PTR”与“void *”的间接级别不同
+C:\FreeRdp\freerdp-2.2.0\client\Windows\wf_floatbar.c(394,80): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  wfreerdp.c
+C:\FreeRdp\freerdp-2.2.0\client\Windows\cli\wfreerdp.c(141,31): warning C4013: “RdpMessageBox”未定义；假设外部返回 int
+C:\FreeRdp\freerdp-2.2.0\client\Windows\cli\wfreerdp.c(356,1): warning C4142: "RdpMessageBox": 类型的良性重定义
+C:\FreeRdp\freerdp-2.2.0\client\Windows\cli\wfreerdp.c(496,30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+    正在创建库 C:/FreeRdp/platform/Debug/wfreerdp.lib 和对象 C:/FreeRdp/platform/Debug/wfreerdp.exp
+  wfreerdp-client.vcxproj -> C:\FreeRdp\platform\Debug\wfreerdp.exe

@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\remdesk-client.pdb
+C:\FreeRdp\platform\channels\remdesk\client\remdesk-client.dir\Debug\remdesk-client.pdb

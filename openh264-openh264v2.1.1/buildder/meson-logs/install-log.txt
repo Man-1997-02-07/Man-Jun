@@ -1,0 +1,10 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+C:/msys64/mingw64/bin/libopenh264-6.dll
+C:/msys64/mingw64/lib/libopenh264.dll.a
+C:/msys64/mingw64/lib/libopenh264.a
+C:/msys64/mingw64/include/wels/codec_api.h
+C:/msys64/mingw64/include/wels/codec_app_def.h
+C:/msys64/mingw64/include/wels/codec_def.h
+C:/msys64/mingw64/include/wels/codec_ver.h
+C:/msys64/mingw64/lib/pkgconfig/openh264.pc

@@ -1,0 +1,872 @@
+[
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_common_tables.cpp.obj -MF \"codec/common/libcommon.a.p/src_common_tables.cpp.obj.d\" -o codec/common/libcommon.a.p/src_common_tables.cpp.obj \"-c\" ../codec/common/src/common_tables.cpp",
+    "file": "../codec/common/src/common_tables.cpp",
+    "output": "codec/common/libcommon.a.p/src_common_tables.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_copy_mb.cpp.obj -MF \"codec/common/libcommon.a.p/src_copy_mb.cpp.obj.d\" -o codec/common/libcommon.a.p/src_copy_mb.cpp.obj \"-c\" ../codec/common/src/copy_mb.cpp",
+    "file": "../codec/common/src/copy_mb.cpp",
+    "output": "codec/common/libcommon.a.p/src_copy_mb.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_cpu.cpp.obj -MF \"codec/common/libcommon.a.p/src_cpu.cpp.obj.d\" -o codec/common/libcommon.a.p/src_cpu.cpp.obj \"-c\" ../codec/common/src/cpu.cpp",
+    "file": "../codec/common/src/cpu.cpp",
+    "output": "codec/common/libcommon.a.p/src_cpu.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_crt_util_safe_x.cpp.obj -MF \"codec/common/libcommon.a.p/src_crt_util_safe_x.cpp.obj.d\" -o codec/common/libcommon.a.p/src_crt_util_safe_x.cpp.obj \"-c\" ../codec/common/src/crt_util_safe_x.cpp",
+    "file": "../codec/common/src/crt_util_safe_x.cpp",
+    "output": "codec/common/libcommon.a.p/src_crt_util_safe_x.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_deblocking_common.cpp.obj -MF \"codec/common/libcommon.a.p/src_deblocking_common.cpp.obj.d\" -o codec/common/libcommon.a.p/src_deblocking_common.cpp.obj \"-c\" ../codec/common/src/deblocking_common.cpp",
+    "file": "../codec/common/src/deblocking_common.cpp",
+    "output": "codec/common/libcommon.a.p/src_deblocking_common.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_expand_pic.cpp.obj -MF \"codec/common/libcommon.a.p/src_expand_pic.cpp.obj.d\" -o codec/common/libcommon.a.p/src_expand_pic.cpp.obj \"-c\" ../codec/common/src/expand_pic.cpp",
+    "file": "../codec/common/src/expand_pic.cpp",
+    "output": "codec/common/libcommon.a.p/src_expand_pic.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_intra_pred_common.cpp.obj -MF \"codec/common/libcommon.a.p/src_intra_pred_common.cpp.obj.d\" -o codec/common/libcommon.a.p/src_intra_pred_common.cpp.obj \"-c\" ../codec/common/src/intra_pred_common.cpp",
+    "file": "../codec/common/src/intra_pred_common.cpp",
+    "output": "codec/common/libcommon.a.p/src_intra_pred_common.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_mc.cpp.obj -MF \"codec/common/libcommon.a.p/src_mc.cpp.obj.d\" -o codec/common/libcommon.a.p/src_mc.cpp.obj \"-c\" ../codec/common/src/mc.cpp",
+    "file": "../codec/common/src/mc.cpp",
+    "output": "codec/common/libcommon.a.p/src_mc.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_memory_align.cpp.obj -MF \"codec/common/libcommon.a.p/src_memory_align.cpp.obj.d\" -o codec/common/libcommon.a.p/src_memory_align.cpp.obj \"-c\" ../codec/common/src/memory_align.cpp",
+    "file": "../codec/common/src/memory_align.cpp",
+    "output": "codec/common/libcommon.a.p/src_memory_align.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_sad_common.cpp.obj -MF \"codec/common/libcommon.a.p/src_sad_common.cpp.obj.d\" -o codec/common/libcommon.a.p/src_sad_common.cpp.obj \"-c\" ../codec/common/src/sad_common.cpp",
+    "file": "../codec/common/src/sad_common.cpp",
+    "output": "codec/common/libcommon.a.p/src_sad_common.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_utils.cpp.obj -MF \"codec/common/libcommon.a.p/src_utils.cpp.obj.d\" -o codec/common/libcommon.a.p/src_utils.cpp.obj \"-c\" ../codec/common/src/utils.cpp",
+    "file": "../codec/common/src/utils.cpp",
+    "output": "codec/common/libcommon.a.p/src_utils.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_welsCodecTrace.cpp.obj -MF \"codec/common/libcommon.a.p/src_welsCodecTrace.cpp.obj.d\" -o codec/common/libcommon.a.p/src_welsCodecTrace.cpp.obj \"-c\" ../codec/common/src/welsCodecTrace.cpp",
+    "file": "../codec/common/src/welsCodecTrace.cpp",
+    "output": "codec/common/libcommon.a.p/src_welsCodecTrace.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_WelsTaskThread.cpp.obj -MF \"codec/common/libcommon.a.p/src_WelsTaskThread.cpp.obj.d\" -o codec/common/libcommon.a.p/src_WelsTaskThread.cpp.obj \"-c\" ../codec/common/src/WelsTaskThread.cpp",
+    "file": "../codec/common/src/WelsTaskThread.cpp",
+    "output": "codec/common/libcommon.a.p/src_WelsTaskThread.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_WelsThread.cpp.obj -MF \"codec/common/libcommon.a.p/src_WelsThread.cpp.obj.d\" -o codec/common/libcommon.a.p/src_WelsThread.cpp.obj \"-c\" ../codec/common/src/WelsThread.cpp",
+    "file": "../codec/common/src/WelsThread.cpp",
+    "output": "codec/common/libcommon.a.p/src_WelsThread.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_WelsThreadLib.cpp.obj -MF \"codec/common/libcommon.a.p/src_WelsThreadLib.cpp.obj.d\" -o codec/common/libcommon.a.p/src_WelsThreadLib.cpp.obj \"-c\" ../codec/common/src/WelsThreadLib.cpp",
+    "file": "../codec/common/src/WelsThreadLib.cpp",
+    "output": "codec/common/libcommon.a.p/src_WelsThreadLib.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/common/libcommon.a.p\" \"-Icodec/common\" \"-I../codec/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/common/libcommon.a.p/src_WelsThreadPool.cpp.obj -MF \"codec/common/libcommon.a.p/src_WelsThreadPool.cpp.obj.d\" -o codec/common/libcommon.a.p/src_WelsThreadPool.cpp.obj \"-c\" ../codec/common/src/WelsThreadPool.cpp",
+    "file": "../codec/common/src/WelsThreadPool.cpp",
+    "output": "codec/common/libcommon.a.p/src_WelsThreadPool.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_au_parser.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_au_parser.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_au_parser.cpp.obj \"-c\" ../codec/decoder/core/src/au_parser.cpp",
+    "file": "../codec/decoder/core/src/au_parser.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_au_parser.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_bit_stream.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_bit_stream.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_bit_stream.cpp.obj \"-c\" ../codec/decoder/core/src/bit_stream.cpp",
+    "file": "../codec/decoder/core/src/bit_stream.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_bit_stream.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_cabac_decoder.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_cabac_decoder.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_cabac_decoder.cpp.obj \"-c\" ../codec/decoder/core/src/cabac_decoder.cpp",
+    "file": "../codec/decoder/core/src/cabac_decoder.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_cabac_decoder.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_deblocking.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_deblocking.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_deblocking.cpp.obj \"-c\" ../codec/decoder/core/src/deblocking.cpp",
+    "file": "../codec/decoder/core/src/deblocking.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_deblocking.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_decode_mb_aux.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_decode_mb_aux.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_decode_mb_aux.cpp.obj \"-c\" ../codec/decoder/core/src/decode_mb_aux.cpp",
+    "file": "../codec/decoder/core/src/decode_mb_aux.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_decode_mb_aux.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_decode_slice.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_decode_slice.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_decode_slice.cpp.obj \"-c\" ../codec/decoder/core/src/decode_slice.cpp",
+    "file": "../codec/decoder/core/src/decode_slice.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_decode_slice.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_decoder.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_decoder.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_decoder.cpp.obj \"-c\" ../codec/decoder/core/src/decoder.cpp",
+    "file": "../codec/decoder/core/src/decoder.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_decoder.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_decoder_core.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_decoder_core.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_decoder_core.cpp.obj \"-c\" ../codec/decoder/core/src/decoder_core.cpp",
+    "file": "../codec/decoder/core/src/decoder_core.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_decoder_core.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_decoder_data_tables.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_decoder_data_tables.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_decoder_data_tables.cpp.obj \"-c\" ../codec/decoder/core/src/decoder_data_tables.cpp",
+    "file": "../codec/decoder/core/src/decoder_data_tables.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_decoder_data_tables.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_error_concealment.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_error_concealment.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_error_concealment.cpp.obj \"-c\" ../codec/decoder/core/src/error_concealment.cpp",
+    "file": "../codec/decoder/core/src/error_concealment.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_error_concealment.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_fmo.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_fmo.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_fmo.cpp.obj \"-c\" ../codec/decoder/core/src/fmo.cpp",
+    "file": "../codec/decoder/core/src/fmo.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_fmo.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_get_intra_predictor.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_get_intra_predictor.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_get_intra_predictor.cpp.obj \"-c\" ../codec/decoder/core/src/get_intra_predictor.cpp",
+    "file": "../codec/decoder/core/src/get_intra_predictor.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_get_intra_predictor.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_manage_dec_ref.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_manage_dec_ref.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_manage_dec_ref.cpp.obj \"-c\" ../codec/decoder/core/src/manage_dec_ref.cpp",
+    "file": "../codec/decoder/core/src/manage_dec_ref.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_manage_dec_ref.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_memmgr_nal_unit.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_memmgr_nal_unit.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_memmgr_nal_unit.cpp.obj \"-c\" ../codec/decoder/core/src/memmgr_nal_unit.cpp",
+    "file": "../codec/decoder/core/src/memmgr_nal_unit.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_memmgr_nal_unit.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_mv_pred.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_mv_pred.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_mv_pred.cpp.obj \"-c\" ../codec/decoder/core/src/mv_pred.cpp",
+    "file": "../codec/decoder/core/src/mv_pred.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_mv_pred.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_parse_mb_syn_cabac.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_parse_mb_syn_cabac.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_parse_mb_syn_cabac.cpp.obj \"-c\" ../codec/decoder/core/src/parse_mb_syn_cabac.cpp",
+    "file": "../codec/decoder/core/src/parse_mb_syn_cabac.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_parse_mb_syn_cabac.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_parse_mb_syn_cavlc.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_parse_mb_syn_cavlc.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_parse_mb_syn_cavlc.cpp.obj \"-c\" ../codec/decoder/core/src/parse_mb_syn_cavlc.cpp",
+    "file": "../codec/decoder/core/src/parse_mb_syn_cavlc.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_parse_mb_syn_cavlc.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_pic_queue.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_pic_queue.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_pic_queue.cpp.obj \"-c\" ../codec/decoder/core/src/pic_queue.cpp",
+    "file": "../codec/decoder/core/src/pic_queue.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_pic_queue.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_rec_mb.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_rec_mb.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_rec_mb.cpp.obj \"-c\" ../codec/decoder/core/src/rec_mb.cpp",
+    "file": "../codec/decoder/core/src/rec_mb.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_rec_mb.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/plus_src_welsDecoderExt.cpp.obj -MF \"codec/decoder/libdecoder.a.p/plus_src_welsDecoderExt.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/plus_src_welsDecoderExt.cpp.obj \"-c\" ../codec/decoder/plus/src/welsDecoderExt.cpp",
+    "file": "../codec/decoder/plus/src/welsDecoderExt.cpp",
+    "output": "codec/decoder/libdecoder.a.p/plus_src_welsDecoderExt.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/decoder/libdecoder.a.p\" \"-Icodec/decoder\" \"-I../codec/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/decoder/libdecoder.a.p/core_src_wels_decoder_thread.cpp.obj -MF \"codec/decoder/libdecoder.a.p/core_src_wels_decoder_thread.cpp.obj.d\" -o codec/decoder/libdecoder.a.p/core_src_wels_decoder_thread.cpp.obj \"-c\" ../codec/decoder/core/src/wels_decoder_thread.cpp",
+    "file": "../codec/decoder/core/src/wels_decoder_thread.cpp",
+    "output": "codec/decoder/libdecoder.a.p/core_src_wels_decoder_thread.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_au_set.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_au_set.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_au_set.cpp.obj \"-c\" ../codec/encoder/core/src/au_set.cpp",
+    "file": "../codec/encoder/core/src/au_set.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_au_set.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_deblocking.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_deblocking.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_deblocking.cpp.obj \"-c\" ../codec/encoder/core/src/deblocking.cpp",
+    "file": "../codec/encoder/core/src/deblocking.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_deblocking.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_decode_mb_aux.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_decode_mb_aux.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_decode_mb_aux.cpp.obj \"-c\" ../codec/encoder/core/src/decode_mb_aux.cpp",
+    "file": "../codec/encoder/core/src/decode_mb_aux.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_decode_mb_aux.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_encode_mb_aux.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_encode_mb_aux.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_encode_mb_aux.cpp.obj \"-c\" ../codec/encoder/core/src/encode_mb_aux.cpp",
+    "file": "../codec/encoder/core/src/encode_mb_aux.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_encode_mb_aux.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_encoder.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_encoder.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_encoder.cpp.obj \"-c\" ../codec/encoder/core/src/encoder.cpp",
+    "file": "../codec/encoder/core/src/encoder.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_encoder.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_encoder_data_tables.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_encoder_data_tables.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_encoder_data_tables.cpp.obj \"-c\" ../codec/encoder/core/src/encoder_data_tables.cpp",
+    "file": "../codec/encoder/core/src/encoder_data_tables.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_encoder_data_tables.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_encoder_ext.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_encoder_ext.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_encoder_ext.cpp.obj \"-c\" ../codec/encoder/core/src/encoder_ext.cpp",
+    "file": "../codec/encoder/core/src/encoder_ext.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_encoder_ext.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_get_intra_predictor.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_get_intra_predictor.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_get_intra_predictor.cpp.obj \"-c\" ../codec/encoder/core/src/get_intra_predictor.cpp",
+    "file": "../codec/encoder/core/src/get_intra_predictor.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_get_intra_predictor.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_md.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_md.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_md.cpp.obj \"-c\" ../codec/encoder/core/src/md.cpp",
+    "file": "../codec/encoder/core/src/md.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_md.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_mv_pred.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_mv_pred.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_mv_pred.cpp.obj \"-c\" ../codec/encoder/core/src/mv_pred.cpp",
+    "file": "../codec/encoder/core/src/mv_pred.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_mv_pred.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_nal_encap.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_nal_encap.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_nal_encap.cpp.obj \"-c\" ../codec/encoder/core/src/nal_encap.cpp",
+    "file": "../codec/encoder/core/src/nal_encap.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_nal_encap.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_paraset_strategy.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_paraset_strategy.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_paraset_strategy.cpp.obj \"-c\" ../codec/encoder/core/src/paraset_strategy.cpp",
+    "file": "../codec/encoder/core/src/paraset_strategy.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_paraset_strategy.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_picture_handle.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_picture_handle.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_picture_handle.cpp.obj \"-c\" ../codec/encoder/core/src/picture_handle.cpp",
+    "file": "../codec/encoder/core/src/picture_handle.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_picture_handle.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_ratectl.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_ratectl.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_ratectl.cpp.obj \"-c\" ../codec/encoder/core/src/ratectl.cpp",
+    "file": "../codec/encoder/core/src/ratectl.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_ratectl.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_ref_list_mgr_svc.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_ref_list_mgr_svc.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_ref_list_mgr_svc.cpp.obj \"-c\" ../codec/encoder/core/src/ref_list_mgr_svc.cpp",
+    "file": "../codec/encoder/core/src/ref_list_mgr_svc.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_ref_list_mgr_svc.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_sample.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_sample.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_sample.cpp.obj \"-c\" ../codec/encoder/core/src/sample.cpp",
+    "file": "../codec/encoder/core/src/sample.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_sample.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_set_mb_syn_cabac.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_set_mb_syn_cabac.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_set_mb_syn_cabac.cpp.obj \"-c\" ../codec/encoder/core/src/set_mb_syn_cabac.cpp",
+    "file": "../codec/encoder/core/src/set_mb_syn_cabac.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_set_mb_syn_cabac.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_set_mb_syn_cavlc.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_set_mb_syn_cavlc.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_set_mb_syn_cavlc.cpp.obj \"-c\" ../codec/encoder/core/src/set_mb_syn_cavlc.cpp",
+    "file": "../codec/encoder/core/src/set_mb_syn_cavlc.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_set_mb_syn_cavlc.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_slice_multi_threading.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_slice_multi_threading.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_slice_multi_threading.cpp.obj \"-c\" ../codec/encoder/core/src/slice_multi_threading.cpp",
+    "file": "../codec/encoder/core/src/slice_multi_threading.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_slice_multi_threading.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_svc_base_layer_md.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_svc_base_layer_md.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_svc_base_layer_md.cpp.obj \"-c\" ../codec/encoder/core/src/svc_base_layer_md.cpp",
+    "file": "../codec/encoder/core/src/svc_base_layer_md.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_svc_base_layer_md.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_svc_enc_slice_segment.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_svc_enc_slice_segment.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_svc_enc_slice_segment.cpp.obj \"-c\" ../codec/encoder/core/src/svc_enc_slice_segment.cpp",
+    "file": "../codec/encoder/core/src/svc_enc_slice_segment.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_svc_enc_slice_segment.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_svc_encode_mb.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_svc_encode_mb.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_svc_encode_mb.cpp.obj \"-c\" ../codec/encoder/core/src/svc_encode_mb.cpp",
+    "file": "../codec/encoder/core/src/svc_encode_mb.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_svc_encode_mb.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_svc_encode_slice.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_svc_encode_slice.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_svc_encode_slice.cpp.obj \"-c\" ../codec/encoder/core/src/svc_encode_slice.cpp",
+    "file": "../codec/encoder/core/src/svc_encode_slice.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_svc_encode_slice.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_svc_mode_decision.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_svc_mode_decision.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_svc_mode_decision.cpp.obj \"-c\" ../codec/encoder/core/src/svc_mode_decision.cpp",
+    "file": "../codec/encoder/core/src/svc_mode_decision.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_svc_mode_decision.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_svc_motion_estimate.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_svc_motion_estimate.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_svc_motion_estimate.cpp.obj \"-c\" ../codec/encoder/core/src/svc_motion_estimate.cpp",
+    "file": "../codec/encoder/core/src/svc_motion_estimate.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_svc_motion_estimate.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_svc_set_mb_syn_cabac.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_svc_set_mb_syn_cabac.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_svc_set_mb_syn_cabac.cpp.obj \"-c\" ../codec/encoder/core/src/svc_set_mb_syn_cabac.cpp",
+    "file": "../codec/encoder/core/src/svc_set_mb_syn_cabac.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_svc_set_mb_syn_cabac.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_svc_set_mb_syn_cavlc.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_svc_set_mb_syn_cavlc.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_svc_set_mb_syn_cavlc.cpp.obj \"-c\" ../codec/encoder/core/src/svc_set_mb_syn_cavlc.cpp",
+    "file": "../codec/encoder/core/src/svc_set_mb_syn_cavlc.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_svc_set_mb_syn_cavlc.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_wels_preprocess.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_wels_preprocess.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_wels_preprocess.cpp.obj \"-c\" ../codec/encoder/core/src/wels_preprocess.cpp",
+    "file": "../codec/encoder/core/src/wels_preprocess.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_wels_preprocess.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_wels_task_base.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_wels_task_base.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_wels_task_base.cpp.obj \"-c\" ../codec/encoder/core/src/wels_task_base.cpp",
+    "file": "../codec/encoder/core/src/wels_task_base.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_wels_task_base.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_wels_task_encoder.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_wels_task_encoder.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_wels_task_encoder.cpp.obj \"-c\" ../codec/encoder/core/src/wels_task_encoder.cpp",
+    "file": "../codec/encoder/core/src/wels_task_encoder.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_wels_task_encoder.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/core_src_wels_task_management.cpp.obj -MF \"codec/encoder/libencoder.a.p/core_src_wels_task_management.cpp.obj.d\" -o codec/encoder/libencoder.a.p/core_src_wels_task_management.cpp.obj \"-c\" ../codec/encoder/core/src/wels_task_management.cpp",
+    "file": "../codec/encoder/core/src/wels_task_management.cpp",
+    "output": "codec/encoder/libencoder.a.p/core_src_wels_task_management.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/encoder/libencoder.a.p\" \"-Icodec/encoder\" \"-I../codec/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/encoder/libencoder.a.p/plus_src_welsEncoderExt.cpp.obj -MF \"codec/encoder/libencoder.a.p/plus_src_welsEncoderExt.cpp.obj.d\" -o codec/encoder/libencoder.a.p/plus_src_welsEncoderExt.cpp.obj \"-c\" ../codec/encoder/plus/src/welsEncoderExt.cpp",
+    "file": "../codec/encoder/plus/src/welsEncoderExt.cpp",
+    "output": "codec/encoder/libencoder.a.p/plus_src_welsEncoderExt.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_adaptivequantization_AdaptiveQuantization.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_adaptivequantization_AdaptiveQuantization.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_adaptivequantization_AdaptiveQuantization.cpp.obj \"-c\" ../codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp",
+    "file": "../codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_adaptivequantization_AdaptiveQuantization.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_backgrounddetection_BackgroundDetection.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_backgrounddetection_BackgroundDetection.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_backgrounddetection_BackgroundDetection.cpp.obj \"-c\" ../codec/processing/src/backgrounddetection/BackgroundDetection.cpp",
+    "file": "../codec/processing/src/backgrounddetection/BackgroundDetection.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_backgrounddetection_BackgroundDetection.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_common_memory.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_common_memory.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_common_memory.cpp.obj \"-c\" ../codec/processing/src/common/memory.cpp",
+    "file": "../codec/processing/src/common/memory.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_common_memory.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_common_WelsFrameWork.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_common_WelsFrameWork.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_common_WelsFrameWork.cpp.obj \"-c\" ../codec/processing/src/common/WelsFrameWork.cpp",
+    "file": "../codec/processing/src/common/WelsFrameWork.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_common_WelsFrameWork.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_common_WelsFrameWorkEx.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_common_WelsFrameWorkEx.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_common_WelsFrameWorkEx.cpp.obj \"-c\" ../codec/processing/src/common/WelsFrameWorkEx.cpp",
+    "file": "../codec/processing/src/common/WelsFrameWorkEx.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_common_WelsFrameWorkEx.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_complexityanalysis_ComplexityAnalysis.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_complexityanalysis_ComplexityAnalysis.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_complexityanalysis_ComplexityAnalysis.cpp.obj \"-c\" ../codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp",
+    "file": "../codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_complexityanalysis_ComplexityAnalysis.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_denoise_denoise.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_denoise_denoise.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_denoise_denoise.cpp.obj \"-c\" ../codec/processing/src/denoise/denoise.cpp",
+    "file": "../codec/processing/src/denoise/denoise.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_denoise_denoise.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_denoise_denoise_filter.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_denoise_denoise_filter.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_denoise_denoise_filter.cpp.obj \"-c\" ../codec/processing/src/denoise/denoise_filter.cpp",
+    "file": "../codec/processing/src/denoise/denoise_filter.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_denoise_denoise_filter.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_downsample_downsample.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_downsample_downsample.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_downsample_downsample.cpp.obj \"-c\" ../codec/processing/src/downsample/downsample.cpp",
+    "file": "../codec/processing/src/downsample/downsample.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_downsample_downsample.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_downsample_downsamplefuncs.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_downsample_downsamplefuncs.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_downsample_downsamplefuncs.cpp.obj \"-c\" ../codec/processing/src/downsample/downsamplefuncs.cpp",
+    "file": "../codec/processing/src/downsample/downsamplefuncs.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_downsample_downsamplefuncs.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_imagerotate_imagerotate.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_imagerotate_imagerotate.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_imagerotate_imagerotate.cpp.obj \"-c\" ../codec/processing/src/imagerotate/imagerotate.cpp",
+    "file": "../codec/processing/src/imagerotate/imagerotate.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_imagerotate_imagerotate.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_imagerotate_imagerotatefuncs.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_imagerotate_imagerotatefuncs.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_imagerotate_imagerotatefuncs.cpp.obj \"-c\" ../codec/processing/src/imagerotate/imagerotatefuncs.cpp",
+    "file": "../codec/processing/src/imagerotate/imagerotatefuncs.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_imagerotate_imagerotatefuncs.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_scenechangedetection_SceneChangeDetection.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_scenechangedetection_SceneChangeDetection.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_scenechangedetection_SceneChangeDetection.cpp.obj \"-c\" ../codec/processing/src/scenechangedetection/SceneChangeDetection.cpp",
+    "file": "../codec/processing/src/scenechangedetection/SceneChangeDetection.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_scenechangedetection_SceneChangeDetection.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_scrolldetection_ScrollDetection.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_scrolldetection_ScrollDetection.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_scrolldetection_ScrollDetection.cpp.obj \"-c\" ../codec/processing/src/scrolldetection/ScrollDetection.cpp",
+    "file": "../codec/processing/src/scrolldetection/ScrollDetection.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_scrolldetection_ScrollDetection.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_scrolldetection_ScrollDetectionFuncs.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_scrolldetection_ScrollDetectionFuncs.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_scrolldetection_ScrollDetectionFuncs.cpp.obj \"-c\" ../codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp",
+    "file": "../codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_scrolldetection_ScrollDetectionFuncs.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_vaacalc_vaacalcfuncs.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_vaacalc_vaacalcfuncs.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_vaacalc_vaacalcfuncs.cpp.obj \"-c\" ../codec/processing/src/vaacalc/vaacalcfuncs.cpp",
+    "file": "../codec/processing/src/vaacalc/vaacalcfuncs.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_vaacalc_vaacalcfuncs.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/processing/libprocessing.a.p\" \"-Icodec/processing\" \"-I../codec/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/processing/libprocessing.a.p/src_vaacalc_vaacalculation.cpp.obj -MF \"codec/processing/libprocessing.a.p/src_vaacalc_vaacalculation.cpp.obj.d\" -o codec/processing/libprocessing.a.p/src_vaacalc_vaacalculation.cpp.obj \"-c\" ../codec/processing/src/vaacalc/vaacalculation.cpp",
+    "file": "../codec/processing/src/vaacalc/vaacalculation.cpp",
+    "output": "codec/processing/libprocessing.a.p/src_vaacalc_vaacalculation.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/console/common/libconsole_common.a.p\" \"-Icodec/console/common\" \"-I../codec/console/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/console/common/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/console/common/libconsole_common.a.p/src_read_config.cpp.obj -MF \"codec/console/common/libconsole_common.a.p/src_read_config.cpp.obj.d\" -o codec/console/common/libconsole_common.a.p/src_read_config.cpp.obj \"-c\" ../codec/console/common/src/read_config.cpp",
+    "file": "../codec/console/common/src/read_config.cpp",
+    "output": "codec/console/common/libconsole_common.a.p/src_read_config.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/console/dec/h264dec.exe.p\" \"-Icodec/console/dec\" \"-I../codec/console/dec\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/console/common/inc\" \"-I../codec/console/dec/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/console/dec/h264dec.exe.p/src_d3d9_utils.cpp.obj -MF \"codec/console/dec/h264dec.exe.p/src_d3d9_utils.cpp.obj.d\" -o codec/console/dec/h264dec.exe.p/src_d3d9_utils.cpp.obj \"-c\" ../codec/console/dec/src/d3d9_utils.cpp",
+    "file": "../codec/console/dec/src/d3d9_utils.cpp",
+    "output": "codec/console/dec/h264dec.exe.p/src_d3d9_utils.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/console/dec/h264dec.exe.p\" \"-Icodec/console/dec\" \"-I../codec/console/dec\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/console/common/inc\" \"-I../codec/console/dec/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/console/dec/h264dec.exe.p/src_h264dec.cpp.obj -MF \"codec/console/dec/h264dec.exe.p/src_h264dec.cpp.obj.d\" -o codec/console/dec/h264dec.exe.p/src_h264dec.cpp.obj \"-c\" ../codec/console/dec/src/h264dec.cpp",
+    "file": "../codec/console/dec/src/h264dec.cpp",
+    "output": "codec/console/dec/h264dec.exe.p/src_h264dec.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Icodec/console/enc/h264enc.exe.p\" \"-Icodec/console/enc\" \"-I../codec/console/enc\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-I../codec/console/common/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-pthread\" -MD -MQ codec/console/enc/h264enc.exe.p/src_welsenc.cpp.obj -MF \"codec/console/enc/h264enc.exe.p/src_welsenc.cpp.obj.d\" -o codec/console/enc/h264enc.exe.p/src_welsenc.cpp.obj \"-c\" ../codec/console/enc/src/welsenc.cpp",
+    "file": "../codec/console/enc/src/welsenc.cpp",
+    "output": "codec/console/enc/h264enc.exe.p/src_welsenc.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/BaseDecoderTest.cpp.obj -MF \"test/api/test_api.exe.p/BaseDecoderTest.cpp.obj.d\" -o test/api/test_api.exe.p/BaseDecoderTest.cpp.obj \"-c\" ../test/api/BaseDecoderTest.cpp",
+    "file": "../test/api/BaseDecoderTest.cpp",
+    "output": "test/api/test_api.exe.p/BaseDecoderTest.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/BaseThreadDecoderTest.cpp.obj -MF \"test/api/test_api.exe.p/BaseThreadDecoderTest.cpp.obj.d\" -o test/api/test_api.exe.p/BaseThreadDecoderTest.cpp.obj \"-c\" ../test/api/BaseThreadDecoderTest.cpp",
+    "file": "../test/api/BaseThreadDecoderTest.cpp",
+    "output": "test/api/test_api.exe.p/BaseThreadDecoderTest.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/BaseEncoderTest.cpp.obj -MF \"test/api/test_api.exe.p/BaseEncoderTest.cpp.obj.d\" -o test/api/test_api.exe.p/BaseEncoderTest.cpp.obj \"-c\" ../test/api/BaseEncoderTest.cpp",
+    "file": "../test/api/BaseEncoderTest.cpp",
+    "output": "test/api/test_api.exe.p/BaseEncoderTest.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/cpp_interface_test.cpp.obj -MF \"test/api/test_api.exe.p/cpp_interface_test.cpp.obj.d\" -o test/api/test_api.exe.p/cpp_interface_test.cpp.obj \"-c\" ../test/api/cpp_interface_test.cpp",
+    "file": "../test/api/cpp_interface_test.cpp",
+    "output": "test/api/test_api.exe.p/cpp_interface_test.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/DataGenerator.cpp.obj -MF \"test/api/test_api.exe.p/DataGenerator.cpp.obj.d\" -o test/api/test_api.exe.p/DataGenerator.cpp.obj \"-c\" ../test/api/DataGenerator.cpp",
+    "file": "../test/api/DataGenerator.cpp",
+    "output": "test/api/test_api.exe.p/DataGenerator.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/decode_api_test.cpp.obj -MF \"test/api/test_api.exe.p/decode_api_test.cpp.obj.d\" -o test/api/test_api.exe.p/decode_api_test.cpp.obj \"-c\" ../test/api/decode_api_test.cpp",
+    "file": "../test/api/decode_api_test.cpp",
+    "output": "test/api/test_api.exe.p/decode_api_test.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/decode_encode_test.cpp.obj -MF \"test/api/test_api.exe.p/decode_encode_test.cpp.obj.d\" -o test/api/test_api.exe.p/decode_encode_test.cpp.obj \"-c\" ../test/api/decode_encode_test.cpp",
+    "file": "../test/api/decode_encode_test.cpp",
+    "output": "test/api/test_api.exe.p/decode_encode_test.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/decoder_ec_test.cpp.obj -MF \"test/api/test_api.exe.p/decoder_ec_test.cpp.obj.d\" -o test/api/test_api.exe.p/decoder_ec_test.cpp.obj \"-c\" ../test/api/decoder_ec_test.cpp",
+    "file": "../test/api/decoder_ec_test.cpp",
+    "output": "test/api/test_api.exe.p/decoder_ec_test.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/decoder_test.cpp.obj -MF \"test/api/test_api.exe.p/decoder_test.cpp.obj.d\" -o test/api/test_api.exe.p/decoder_test.cpp.obj \"-c\" ../test/api/decoder_test.cpp",
+    "file": "../test/api/decoder_test.cpp",
+    "output": "test/api/test_api.exe.p/decoder_test.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/thread_decoder_test.cpp.obj -MF \"test/api/test_api.exe.p/thread_decoder_test.cpp.obj.d\" -o test/api/test_api.exe.p/thread_decoder_test.cpp.obj \"-c\" ../test/api/thread_decoder_test.cpp",
+    "file": "../test/api/thread_decoder_test.cpp",
+    "output": "test/api/test_api.exe.p/thread_decoder_test.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/encode_decode_api_test.cpp.obj -MF \"test/api/test_api.exe.p/encode_decode_api_test.cpp.obj.d\" -o test/api/test_api.exe.p/encode_decode_api_test.cpp.obj \"-c\" ../test/api/encode_decode_api_test.cpp",
+    "file": "../test/api/encode_decode_api_test.cpp",
+    "output": "test/api/test_api.exe.p/encode_decode_api_test.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/encode_options_test.cpp.obj -MF \"test/api/test_api.exe.p/encode_options_test.cpp.obj.d\" -o test/api/test_api.exe.p/encode_options_test.cpp.obj \"-c\" ../test/api/encode_options_test.cpp",
+    "file": "../test/api/encode_options_test.cpp",
+    "output": "test/api/test_api.exe.p/encode_options_test.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/encoder_test.cpp.obj -MF \"test/api/test_api.exe.p/encoder_test.cpp.obj.d\" -o test/api/test_api.exe.p/encoder_test.cpp.obj \"-c\" ../test/api/encoder_test.cpp",
+    "file": "../test/api/encoder_test.cpp",
+    "output": "test/api/test_api.exe.p/encoder_test.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/ltr_test.cpp.obj -MF \"test/api/test_api.exe.p/ltr_test.cpp.obj.d\" -o test/api/test_api.exe.p/ltr_test.cpp.obj \"-c\" ../test/api/ltr_test.cpp",
+    "file": "../test/api/ltr_test.cpp",
+    "output": "test/api/test_api.exe.p/ltr_test.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/api/test_api.exe.p/simple_test.cpp.obj -MF \"test/api/test_api.exe.p/simple_test.cpp.obj.d\" -o test/api/test_api.exe.p/simple_test.cpp.obj \"-c\" ../test/api/simple_test.cpp",
+    "file": "../test/api/simple_test.cpp",
+    "output": "test/api/test_api.exe.p/simple_test.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"cc\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O2\" \"-g\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/api/test_api.exe.p/c_interface_test.c.obj -MF \"test/api/test_api.exe.p/c_interface_test.c.obj.d\" -o test/api/test_api.exe.p/c_interface_test.c.obj \"-c\" ../test/api/c_interface_test.c",
+    "file": "../test/api/c_interface_test.c",
+    "output": "test/api/test_api.exe.p/c_interface_test.c.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"cc\" \"-Itest/api/test_api.exe.p\" \"-Itest/api\" \"-I../test/api\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-O2\" \"-g\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/api/test_api.exe.p/sha1.c.obj -MF \"test/api/test_api.exe.p/sha1.c.obj.d\" -o test/api/test_api.exe.p/sha1.c.obj \"-c\" ../test/api/sha1.c",
+    "file": "../test/api/sha1.c",
+    "output": "test/api/test_api.exe.p/sha1.c.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/common/test_common.exe.p\" \"-Itest/common\" \"-I../test/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/common/test_common.exe.p/CWelsListTest.cpp.obj -MF \"test/common/test_common.exe.p/CWelsListTest.cpp.obj.d\" -o test/common/test_common.exe.p/CWelsListTest.cpp.obj \"-c\" ../test/common/CWelsListTest.cpp",
+    "file": "../test/common/CWelsListTest.cpp",
+    "output": "test/common/test_common.exe.p/CWelsListTest.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/common/test_common.exe.p\" \"-Itest/common\" \"-I../test/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/common/test_common.exe.p/ExpandPicture.cpp.obj -MF \"test/common/test_common.exe.p/ExpandPicture.cpp.obj.d\" -o test/common/test_common.exe.p/ExpandPicture.cpp.obj \"-c\" ../test/common/ExpandPicture.cpp",
+    "file": "../test/common/ExpandPicture.cpp",
+    "output": "test/common/test_common.exe.p/ExpandPicture.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/common/test_common.exe.p\" \"-Itest/common\" \"-I../test/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/common/test_common.exe.p/WelsThreadPoolTest.cpp.obj -MF \"test/common/test_common.exe.p/WelsThreadPoolTest.cpp.obj.d\" -o test/common/test_common.exe.p/WelsThreadPoolTest.cpp.obj \"-c\" ../test/common/WelsThreadPoolTest.cpp",
+    "file": "../test/common/WelsThreadPoolTest.cpp",
+    "output": "test/common/test_common.exe.p/WelsThreadPoolTest.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/common/test_common.exe.p\" \"-Itest/common\" \"-I../test/common\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/common/test_common.exe.p/WelsTaskListTest.cpp.obj -MF \"test/common/test_common.exe.p/WelsTaskListTest.cpp.obj.d\" -o test/common/test_common.exe.p/WelsTaskListTest.cpp.obj \"-c\" ../test/common/WelsTaskListTest.cpp",
+    "file": "../test/common/WelsTaskListTest.cpp",
+    "output": "test/common/test_common.exe.p/WelsTaskListTest.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/decoder/test_decoder.exe.p\" \"-Itest/decoder\" \"-I../test/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/decoder/test_decoder.exe.p/DecUT_Deblock.cpp.obj -MF \"test/decoder/test_decoder.exe.p/DecUT_Deblock.cpp.obj.d\" -o test/decoder/test_decoder.exe.p/DecUT_Deblock.cpp.obj \"-c\" ../test/decoder/DecUT_Deblock.cpp",
+    "file": "../test/decoder/DecUT_Deblock.cpp",
+    "output": "test/decoder/test_decoder.exe.p/DecUT_Deblock.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/decoder/test_decoder.exe.p\" \"-Itest/decoder\" \"-I../test/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/decoder/test_decoder.exe.p/DecUT_DeblockCommon.cpp.obj -MF \"test/decoder/test_decoder.exe.p/DecUT_DeblockCommon.cpp.obj.d\" -o test/decoder/test_decoder.exe.p/DecUT_DeblockCommon.cpp.obj \"-c\" ../test/decoder/DecUT_DeblockCommon.cpp",
+    "file": "../test/decoder/DecUT_DeblockCommon.cpp",
+    "output": "test/decoder/test_decoder.exe.p/DecUT_DeblockCommon.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/decoder/test_decoder.exe.p\" \"-Itest/decoder\" \"-I../test/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/decoder/test_decoder.exe.p/DecUT_DecExt.cpp.obj -MF \"test/decoder/test_decoder.exe.p/DecUT_DecExt.cpp.obj.d\" -o test/decoder/test_decoder.exe.p/DecUT_DecExt.cpp.obj \"-c\" ../test/decoder/DecUT_DecExt.cpp",
+    "file": "../test/decoder/DecUT_DecExt.cpp",
+    "output": "test/decoder/test_decoder.exe.p/DecUT_DecExt.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/decoder/test_decoder.exe.p\" \"-Itest/decoder\" \"-I../test/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/decoder/test_decoder.exe.p/DecUT_ErrorConcealment.cpp.obj -MF \"test/decoder/test_decoder.exe.p/DecUT_ErrorConcealment.cpp.obj.d\" -o test/decoder/test_decoder.exe.p/DecUT_ErrorConcealment.cpp.obj \"-c\" ../test/decoder/DecUT_ErrorConcealment.cpp",
+    "file": "../test/decoder/DecUT_ErrorConcealment.cpp",
+    "output": "test/decoder/test_decoder.exe.p/DecUT_ErrorConcealment.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/decoder/test_decoder.exe.p\" \"-Itest/decoder\" \"-I../test/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/decoder/test_decoder.exe.p/DecUT_IdctResAddPred.cpp.obj -MF \"test/decoder/test_decoder.exe.p/DecUT_IdctResAddPred.cpp.obj.d\" -o test/decoder/test_decoder.exe.p/DecUT_IdctResAddPred.cpp.obj \"-c\" ../test/decoder/DecUT_IdctResAddPred.cpp",
+    "file": "../test/decoder/DecUT_IdctResAddPred.cpp",
+    "output": "test/decoder/test_decoder.exe.p/DecUT_IdctResAddPred.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/decoder/test_decoder.exe.p\" \"-Itest/decoder\" \"-I../test/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/decoder/test_decoder.exe.p/DecUT_IntraPrediction.cpp.obj -MF \"test/decoder/test_decoder.exe.p/DecUT_IntraPrediction.cpp.obj.d\" -o test/decoder/test_decoder.exe.p/DecUT_IntraPrediction.cpp.obj \"-c\" ../test/decoder/DecUT_IntraPrediction.cpp",
+    "file": "../test/decoder/DecUT_IntraPrediction.cpp",
+    "output": "test/decoder/test_decoder.exe.p/DecUT_IntraPrediction.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/decoder/test_decoder.exe.p\" \"-Itest/decoder\" \"-I../test/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/decoder/test_decoder.exe.p/DecUT_ParseSyntax.cpp.obj -MF \"test/decoder/test_decoder.exe.p/DecUT_ParseSyntax.cpp.obj.d\" -o test/decoder/test_decoder.exe.p/DecUT_ParseSyntax.cpp.obj \"-c\" ../test/decoder/DecUT_ParseSyntax.cpp",
+    "file": "../test/decoder/DecUT_ParseSyntax.cpp",
+    "output": "test/decoder/test_decoder.exe.p/DecUT_ParseSyntax.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/decoder/test_decoder.exe.p\" \"-Itest/decoder\" \"-I../test/decoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/decoder/core/inc\" \"-I../codec/decoder/plus/inc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/decoder/test_decoder.exe.p/DecUT_PredMv.cpp.obj -MF \"test/decoder/test_decoder.exe.p/DecUT_PredMv.cpp.obj.d\" -o test/decoder/test_decoder.exe.p/DecUT_PredMv.cpp.obj \"-c\" ../test/decoder/DecUT_PredMv.cpp",
+    "file": "../test/decoder/DecUT_PredMv.cpp",
+    "output": "test/decoder/test_decoder.exe.p/DecUT_PredMv.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_Cavlc.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_Cavlc.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_Cavlc.cpp.obj \"-c\" ../test/encoder/EncUT_Cavlc.cpp",
+    "file": "../test/encoder/EncUT_Cavlc.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_Cavlc.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_DecodeMbAux.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_DecodeMbAux.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_DecodeMbAux.cpp.obj \"-c\" ../test/encoder/EncUT_DecodeMbAux.cpp",
+    "file": "../test/encoder/EncUT_DecodeMbAux.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_DecodeMbAux.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_EncoderExt.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_EncoderExt.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_EncoderExt.cpp.obj \"-c\" ../test/encoder/EncUT_EncoderExt.cpp",
+    "file": "../test/encoder/EncUT_EncoderExt.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_EncoderExt.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_EncoderMb.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_EncoderMb.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_EncoderMb.cpp.obj \"-c\" ../test/encoder/EncUT_EncoderMb.cpp",
+    "file": "../test/encoder/EncUT_EncoderMb.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_EncoderMb.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_EncoderMbAux.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_EncoderMbAux.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_EncoderMbAux.cpp.obj \"-c\" ../test/encoder/EncUT_EncoderMbAux.cpp",
+    "file": "../test/encoder/EncUT_EncoderMbAux.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_EncoderMbAux.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_EncoderTaskManagement.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_EncoderTaskManagement.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_EncoderTaskManagement.cpp.obj \"-c\" ../test/encoder/EncUT_EncoderTaskManagement.cpp",
+    "file": "../test/encoder/EncUT_EncoderTaskManagement.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_EncoderTaskManagement.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_ExpGolomb.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_ExpGolomb.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_ExpGolomb.cpp.obj \"-c\" ../test/encoder/EncUT_ExpGolomb.cpp",
+    "file": "../test/encoder/EncUT_ExpGolomb.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_ExpGolomb.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_GetIntraPredictor.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_GetIntraPredictor.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_GetIntraPredictor.cpp.obj \"-c\" ../test/encoder/EncUT_GetIntraPredictor.cpp",
+    "file": "../test/encoder/EncUT_GetIntraPredictor.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_GetIntraPredictor.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_InterfaceTest.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_InterfaceTest.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_InterfaceTest.cpp.obj \"-c\" ../test/encoder/EncUT_InterfaceTest.cpp",
+    "file": "../test/encoder/EncUT_InterfaceTest.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_InterfaceTest.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_MBCopy.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_MBCopy.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_MBCopy.cpp.obj \"-c\" ../test/encoder/EncUT_MBCopy.cpp",
+    "file": "../test/encoder/EncUT_MBCopy.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_MBCopy.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_MemoryAlloc.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_MemoryAlloc.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_MemoryAlloc.cpp.obj \"-c\" ../test/encoder/EncUT_MemoryAlloc.cpp",
+    "file": "../test/encoder/EncUT_MemoryAlloc.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_MemoryAlloc.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_MemoryZero.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_MemoryZero.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_MemoryZero.cpp.obj \"-c\" ../test/encoder/EncUT_MemoryZero.cpp",
+    "file": "../test/encoder/EncUT_MemoryZero.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_MemoryZero.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_MotionCompensation.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_MotionCompensation.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_MotionCompensation.cpp.obj \"-c\" ../test/encoder/EncUT_MotionCompensation.cpp",
+    "file": "../test/encoder/EncUT_MotionCompensation.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_MotionCompensation.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_MotionEstimate.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_MotionEstimate.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_MotionEstimate.cpp.obj \"-c\" ../test/encoder/EncUT_MotionEstimate.cpp",
+    "file": "../test/encoder/EncUT_MotionEstimate.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_MotionEstimate.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_ParameterSetStrategy.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_ParameterSetStrategy.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_ParameterSetStrategy.cpp.obj \"-c\" ../test/encoder/EncUT_ParameterSetStrategy.cpp",
+    "file": "../test/encoder/EncUT_ParameterSetStrategy.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_ParameterSetStrategy.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_Reconstruct.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_Reconstruct.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_Reconstruct.cpp.obj \"-c\" ../test/encoder/EncUT_Reconstruct.cpp",
+    "file": "../test/encoder/EncUT_Reconstruct.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_Reconstruct.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_Sample.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_Sample.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_Sample.cpp.obj \"-c\" ../test/encoder/EncUT_Sample.cpp",
+    "file": "../test/encoder/EncUT_Sample.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_Sample.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_SVC_me.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_SVC_me.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_SVC_me.cpp.obj \"-c\" ../test/encoder/EncUT_SVC_me.cpp",
+    "file": "../test/encoder/EncUT_SVC_me.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_SVC_me.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/EncUT_SliceBufferReallocate.cpp.obj -MF \"test/encoder/test_encoder.exe.p/EncUT_SliceBufferReallocate.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/EncUT_SliceBufferReallocate.cpp.obj \"-c\" ../test/encoder/EncUT_SliceBufferReallocate.cpp",
+    "file": "../test/encoder/EncUT_SliceBufferReallocate.cpp",
+    "output": "test/encoder/test_encoder.exe.p/EncUT_SliceBufferReallocate.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/.._api_DataGenerator.cpp.obj -MF \"test/encoder/test_encoder.exe.p/.._api_DataGenerator.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/.._api_DataGenerator.cpp.obj \"-c\" ../test/api/DataGenerator.cpp",
+    "file": "../test/api/DataGenerator.cpp",
+    "output": "test/encoder/test_encoder.exe.p/.._api_DataGenerator.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/encoder/test_encoder.exe.p\" \"-Itest/encoder\" \"-I../test/encoder\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/encoder/core/inc\" \"-I../codec/encoder/plus/inc\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" \"-Wno-dangling-else\" -MD -MQ test/encoder/test_encoder.exe.p/.._api_BaseEncoderTest.cpp.obj -MF \"test/encoder/test_encoder.exe.p/.._api_BaseEncoderTest.cpp.obj.d\" -o test/encoder/test_encoder.exe.p/.._api_BaseEncoderTest.cpp.obj \"-c\" ../test/api/BaseEncoderTest.cpp",
+    "file": "../test/api/BaseEncoderTest.cpp",
+    "output": "test/encoder/test_encoder.exe.p/.._api_BaseEncoderTest.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/processing/test_processing.exe.p\" \"-Itest/processing\" \"-I../test/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/processing/test_processing.exe.p/ProcessUT_AdaptiveQuantization.cpp.obj -MF \"test/processing/test_processing.exe.p/ProcessUT_AdaptiveQuantization.cpp.obj.d\" -o test/processing/test_processing.exe.p/ProcessUT_AdaptiveQuantization.cpp.obj \"-c\" ../test/processing/ProcessUT_AdaptiveQuantization.cpp",
+    "file": "../test/processing/ProcessUT_AdaptiveQuantization.cpp",
+    "output": "test/processing/test_processing.exe.p/ProcessUT_AdaptiveQuantization.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/processing/test_processing.exe.p\" \"-Itest/processing\" \"-I../test/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/processing/test_processing.exe.p/ProcessUT_DownSample.cpp.obj -MF \"test/processing/test_processing.exe.p/ProcessUT_DownSample.cpp.obj.d\" -o test/processing/test_processing.exe.p/ProcessUT_DownSample.cpp.obj \"-c\" ../test/processing/ProcessUT_DownSample.cpp",
+    "file": "../test/processing/ProcessUT_DownSample.cpp",
+    "output": "test/processing/test_processing.exe.p/ProcessUT_DownSample.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/processing/test_processing.exe.p\" \"-Itest/processing\" \"-I../test/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/processing/test_processing.exe.p/ProcessUT_ScrollDetection.cpp.obj -MF \"test/processing/test_processing.exe.p/ProcessUT_ScrollDetection.cpp.obj.d\" -o test/processing/test_processing.exe.p/ProcessUT_ScrollDetection.cpp.obj \"-c\" ../test/processing/ProcessUT_ScrollDetection.cpp",
+    "file": "../test/processing/ProcessUT_ScrollDetection.cpp",
+    "output": "test/processing/test_processing.exe.p/ProcessUT_ScrollDetection.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/processing/test_processing.exe.p\" \"-Itest/processing\" \"-I../test/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/processing/test_processing.exe.p/ProcessUT_VaaCalc.cpp.obj -MF \"test/processing/test_processing.exe.p/ProcessUT_VaaCalc.cpp.obj.d\" -o test/processing/test_processing.exe.p/ProcessUT_VaaCalc.cpp.obj \"-c\" ../test/processing/ProcessUT_VaaCalc.cpp",
+    "file": "../test/processing/ProcessUT_VaaCalc.cpp",
+    "output": "test/processing/test_processing.exe.p/ProcessUT_VaaCalc.cpp.obj"
+  },
+  {
+    "directory": "C:\\FreeRdp\\openh264-openh264v2.1.1\\buildder",
+    "command": "\"c++\" \"-Itest/processing/test_processing.exe.p\" \"-Itest/processing\" \"-I../test/processing\" \"-Icodec/api/svc\" \"-I../codec/api/svc\" \"-I../codec/common/inc\" \"-Itest\" \"-I../test\" \"-I../codec/processing/interface\" \"-I../codec/processing/src/common\" \"-I../codec/processing/src/adaptivequantization\" \"-I../codec/processing/src/downsample\" \"-I../codec/processing/src/scrolldetection\" \"-I../codec/processing/src/vaacalc\" \"-IC:/msys64/mingw64/include\" \"-fdiagnostics-color=always\" \"-pipe\" \"-D_FILE_OFFSET_BITS=64\" \"-Wall\" \"-Winvalid-pch\" \"-Wnon-virtual-dtor\" \"-O2\" \"-g\" \"-Wno-non-virtual-dtor\" \"-Wno-class-memaccess\" \"-Wno-strict-aliasing\" \"-DGTEST_HAS_PTHREAD=0\" -MD -MQ test/processing/test_processing.exe.p/.._api_DataGenerator.cpp.obj -MF \"test/processing/test_processing.exe.p/.._api_DataGenerator.cpp.obj.d\" -o test/processing/test_processing.exe.p/.._api_DataGenerator.cpp.obj \"-c\" ../test/api/DataGenerator.cpp",
+    "file": "../test/api/DataGenerator.cpp",
+    "output": "test/processing/test_processing.exe.p/.._api_DataGenerator.cpp.obj"
+  }
+]

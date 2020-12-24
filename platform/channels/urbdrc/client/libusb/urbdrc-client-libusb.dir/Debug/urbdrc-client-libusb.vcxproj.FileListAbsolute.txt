@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\urbdrc-client-libusb.pdb
+C:\FreeRdp\platform\channels\urbdrc\client\libusb\urbdrc-client-libusb.dir\Debug\urbdrc-client-libusb.pdb

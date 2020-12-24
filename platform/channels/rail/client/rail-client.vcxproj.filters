@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\channels\rail\rail_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\channels\rail\client\rail_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\FreeRdp\freerdp-2.2.0\channels\rail\client\rail_orders.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\channels\rail\rail_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\channels\rail\client\rail_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\FreeRdp\freerdp-2.2.0\channels\rail\client\rail_orders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{68381AE0-169B-3525-B86D-5BD7FED2E485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{34E4CAA1-512B-3857-84B8-E60689221172}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

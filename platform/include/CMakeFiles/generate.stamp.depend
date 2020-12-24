@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/FreeRdp/freerdp-2.2.0/include/CMakeLists.txt
+C:/FreeRdp/freerdp-2.2.0/include/freerdp/build-config.h.in
+C:/FreeRdp/freerdp-2.2.0/include/freerdp/version.h.in

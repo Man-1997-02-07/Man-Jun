@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\rdpgfx-client.pdb
+C:\FreeRdp\platform\channels\rdpgfx\client\rdpgfx-client.dir\Debug\rdpgfx-client.pdb

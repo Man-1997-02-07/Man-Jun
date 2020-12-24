@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\disp-client.pdb
+C:\FreeRdp\platform\channels\disp\client\disp-client.dir\Debug\disp-client.pdb

@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\drdynvc-client.pdb
+C:\FreeRdp\platform\channels\drdynvc\client\drdynvc-client.dir\Debug\drdynvc-client.pdb

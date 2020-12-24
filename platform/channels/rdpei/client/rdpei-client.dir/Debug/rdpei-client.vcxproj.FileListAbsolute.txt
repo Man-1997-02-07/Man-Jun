@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\rdpei-client.pdb
+C:\FreeRdp\platform\channels\rdpei\client\rdpei-client.dir\Debug\rdpei-client.pdb

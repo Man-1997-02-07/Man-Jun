@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\drive-client.pdb
+C:\FreeRdp\platform\channels\drive\client\drive-client.dir\Debug\drive-client.pdb

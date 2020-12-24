@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\audin-client.pdb
+C:\FreeRdp\platform\channels\audin\client\audin-client.dir\Debug\audin-client.pdb

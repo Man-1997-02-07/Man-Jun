@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\rdp2tcp-client.pdb
+C:\FreeRdp\platform\channels\rdp2tcp\client\rdp2tcp-client.dir\Debug\rdp2tcp-client.pdb

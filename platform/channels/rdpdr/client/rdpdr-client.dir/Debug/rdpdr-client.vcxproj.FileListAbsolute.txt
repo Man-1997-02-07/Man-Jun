@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\rdpdr-client.pdb
+C:\FreeRdp\platform\channels\rdpdr\client\rdpdr-client.dir\Debug\rdpdr-client.pdb

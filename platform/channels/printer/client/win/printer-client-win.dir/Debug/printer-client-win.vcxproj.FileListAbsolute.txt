@@ -1,0 +1,2 @@
+C:\FreeRdp\platform\Debug\printer-client-win.pdb
+C:\FreeRdp\platform\channels\printer\client\win\printer-client-win.dir\Debug\printer-client-win.pdb
