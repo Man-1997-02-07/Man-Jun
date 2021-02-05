@@ -1,0 +1,109 @@
+1.fadomre编译的Msi,双击执行安装（云终端-acess.exe）_（云桌面-Top-viewer.exe）
+####################安装前必须卸载，避免执行错误####################
+2.md5sum.exe git打开当前文件夹，可以查看任意文件的具体属性以及相关信息
+3.git 创建本地分支后再上传到远程分支（切记！！！）
+3.1. C:\XiangChao（初始数据物理机路径）
+local-adp ：没有替换/修改任何数据---干净的
+SpicePlatform ：本地自己开发用的----已修改
+local-240-adp：240当前最新数据包----修改后完成测试并上传
+3.2. Linux环境（虚拟机：xiang）
+/usr/local/local-adp/ ：本地修改好并测试成功的本地bugfix分支（直接上传到远程分支bugfix）
+/usr/local/adp-zkm/ ：本地自己开发用的数据
+3.3 Arm环境（10.30.61.187    /root/root）
+local-240-adp：240当前最新数据包
+3.4 fedora环境（xinag_fedora33/196045）
+编译Msi安装包（vim virt-viewer.wxs.in make msi包太大影响安装(禁用usbdk)）
+//注意：checking for xgettext时候报错：会说configure的IT_PROG_INTLTOOL(0.35.0)无法识别
+解决：需要将build-arm里面的configure替换为adp最新的文件
+//注意：checking whether build environment is sane... configure: error: newly created file is older than distributed files!
+Check your system clock
+解决：需要将git下来的项目，解压并cp到自定义新的目录
+3.4 具体编译流程解析
+<1> ./configure  (主要是生成Makefile,可以添加指定路径 --prefix=自定义路径)(生成Makefile里面的prefix会指定自定义路径，如果未指定路径，系统默认到usr/local/bin)
+<2> make (根据Makefile的内容，编译出相关平台的可执行文件----默认在当前路径下)
+<3> make install (安装编译成功的相关文件包-----bin/)
+
+4.【【前端/后端】【瘦终端/topviewer】topviewer中的对话框定居最小化按钮会退出；关于对话框点击最大化按钮无效。】
+https://www.tapd.cn/30215411/bugtrace/bugs/view/1130215411001010325
+
+处理流程：virt-viewer-window.c(virt-viewer-ui)
+
+5.arm编译机10.30.61.187    /root/root
+//编译时需要指定需要的so文件路径（--prefix）
+
+6. glib 函数api查询入口———参考手册
+https://developer.gnome.org/glib/stable/glib-Miscellaneous-Utility-Functions.html
+
+7. 查找一些GtkAPi接口用途
+http://www.360doc.com/content/17/0216/20/3373961_629538635.shtml
+
+8. 应用命令行参数-执行入口
+https://blog.csdn.net/u010164190/article/details/106685161/
+
+9. Glib
+https://blog.csdn.net/weixin_38369492/article/details/107731997?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
+
+10. Gobject
+https://blog.csdn.net/yanbixing123/article/details/52970925
+
+11. 其他学习相关
+ https://blog.csdn.net/hubbybob1/article/details/87093981
+ 
+12. Gstream
+https://blog.csdn.net/han2529386161/article/details/102896875
+
+
+//virt_viewer_session_spice_main_channel_event  宿主机-spice客户端密码正确（跳转此处）
+//virt_viewer_auth_collect_credentials （用户登录/密码输入，弹窗入口）
+g_signal_emit_by_name(session, "session-cancelled");//发出关闭当前登录弹窗的信号（实际是关联到关闭当前主界面的信号）
+virt_viewer_window_set_property
+
+//virt_viewer_app_maybe_quit 连接服务器成功后的主界面退出入口
+
+//用户登录/密码输入弹窗，相关按钮的消息绑定处理（remote_viewer_connect_dialog-----Top-viewer     spicy_connect_dialog(其他)）----2021.01.22 目前分析了连接窗口和登录窗口
+1.remote_viewer_connect_dialog(解析remote-viewer-connect.ui)------输入ip/port的主窗口
+2.virt_viewer_auth_collect_credentials(解析virt-viewer-auth.ui)------用户登录/密码输入主窗口
+3.virt_viewer_window_init(解析virt-viewer.ui)-----云桌面主窗口挂载的功能项窗口
+3.1 Usb
+USB device selection------------------virt_viewer_window_menu_file_usb_device_selection------virt_viewer_session_spice_usb_device_selection  【未分离】
+<1> gtk_dialog_new_with_buttons----------创建窗口的相关消息绑定处理(1.信号捕捉g_signal_connect_swapped,回调信号处理自定义函数callback)
+																	(2.gdk_window_get_state(GDK_WINDOW(window))获取当前窗口的信号数值)
+										 创建窗口的相关消息默认处理	(1.https://blog.csdn.net/dux003/article/details/4721511  gtk窗口操作)
+																	gtk_window_set_resizable(GTK_WINDOW(dialog), FALSE);//设置窗口是否可伸缩
+																	gtk_window_iconify(GTK_WINDOW(dialog));//最小化
+																	gtk_window_deiconify(GTK_WINDOW(dialog));//去最小化
+																	gtk_window_maximize(GTK_WINDOW(dialog));//最大化
+																	gtk_window_unmaximize(GTK_WINDOW(dialog));//去最大化
+										 其他方法：gtk_window_set_decorated(GTK_WINDOW(dialog), FALSE);//设置成无窗口边框模式
+																	
+Smartcard insertion-------------------virt_viewer_window_menu_file_smartcard_insert
+Smartcard removal---------------------virt_viewer_window_menu_file_smartcard_remove
+Change CD-----------------------------virt_viewer_window_menu_change_cd_activate
+
+3.2 Options
+Full screen---------------------------virt_viewer_window_menu_view_fullscreen
+Zoom:Zoom_In--------------------------virt_viewer_window_menu_view_zoom_in
+Zoom:Zoom_Out-------------------------virt_viewer_window_menu_view_zoom_out
+Zoom:Set_Resolution-------------------virt_viewer_window_menu_view_set_resolution		【未分离】
+Zoom:Normal Size----------------------virt_viewer_window_menu_view_zoom_reset
+Displays 
+Quit----------------------------------virt_viewer_window_menu_file_quit
+Send key
+//Release cursor------------------------virt_viewer_window_menu_view_release_cursor
+
+3.3 help
+virt_viewer_window_menu_help_guest_details(解析virt-viewer-guest-details.ui)-----Guest Details窗口-------virt_viewer_window_guest_details_response  【已启用分离----优化代码   禁用拉伸自定义最大化---修改UI】
+virt_viewer_window_menu_help_about(解析virt-viewer-about.ui)-----About窗口  【已启用分离----优化代码   启用最大化---修改UI】
+
+//优化命令行参数（水印自定义静止坐标，需要新增自定义坐标参数并解析）
+1.virt-viewer 新增自定义坐标参数(完成)
+2.待修改（发送请求呼起服务端响应，-o 指定端口，curl   http://ip:port/path   --data   '{"key":"value"}'）
+http-server.c：parse_watermark
+virt-viewer-window.c：virt_viewer_overlay_label_random_moving
+
+//virt_viewer_overlay_label_random_moving-----watermark_status
+
+
+result = parse_request_body(msg->request_body->data, path);
+watermark_info = parse_watermark(result, &watermark_dynamic_status);
+

@@ -1,0 +1,10 @@
+[Desktop Entry]
+_Name=Top Viewer
+_Comment=Access top desktops
+Exec=top-viewer %u
+Type=Application
+Terminal=false
+MimeType=x-scheme-handler/spice;x-scheme-handler/spice+unix;x-scheme-handler/spice+tls;application/x-top-viewer;
+StartupNotify=true
+Categories=GNOME;GTK;Network;RemoteAccess;
+Icon=virt-viewer

@@ -1,0 +1,201 @@
+优化需求：
+			支持视频重定向，以提升播放流畅度及性能，本项目要求播放1080P高清视频，虚拟机CPU利用率必须低于15%，从而降低服务器资源消耗，提升虚拟机部署密度。
+
+
+<方案1>
+1.使用RDP协议,终端可以使用FreeRDP,可以支持windows和linux版本【本地已实现----Xtopsec】
+2.RDP协议使用效果,使用远程桌面访问【本地已实现----Xtopsec】
+<方案2>
+1.自己开发播放器,播放器捕获数据帧,不进行编解码，通过udp发送给 top-viewer,由top-viewer渲染画面。【本地待实现----Xtopsec】
+
+<具体准备工作>
+1.音视频播放重定向设置步骤
+#####提升播放流畅度及性能，降低服务器资源消耗，提升虚拟机部署密度。######
+//设置
+右键单击开始，然后单击运行。
+键入 mmc，然后单击确定。
+添加组策略对象编辑器管理单元。
+展开本地计算机策略。
+展开计算机配置。
+展开策略。
+展开管理模板。
+展开 Windows 组件。
+展开远程桌面服务。
+在“设备和资源重定向”中，启用允许音频和视频播放重定向。
+重新启动虚拟机。
+//查看
+Win+R组合键，在打开的运行窗口中输入命令gpedit.msc
+展开本地计算机策略。
+展开计算机配置。
+展开策略。
+展开管理模板。
+展开 Windows 组件。
+展开远程桌面服务。
+在“设备和资源重定向”中，启用允许音频和视频播放重定向。
+重新启动虚拟机。
+
+2.配置终端使用FreeRDP，支持windows和linux版本
+######参考FreeRDP编译流程######
+https://ci.freerdp.com/job/freerdp-nightly-windows/   freerdp官网版本
+(1)源码包
+freerdp-2.2.0
+https://github.com/FreeRDP/FreeRDP/wiki/Compilation#linux-specifics
+(2)libusb包-----cmake配置路径合成
+libusb-1.0.23
+https://www.cnblogs.com/jck34/p/4001428.html
+(3)openssl包-----vs2019命令行编译/cmake配置路径合成
+openssl-OpenSSL_1_1_1h 
+https://blog.csdn.net/qq_35014708/article/details/89351248
+(4)openh264音视频编解码包----编译包/cmake配置路径合成
+openh264-2.1.1
+//MinGW ui环境编译
+https://blog.ibaoger.com/2017/07/08/compile-openh264-for-windows/   Winodws下编译OpenH264 for Windows《MinGW Installer》
+https://blog.csdn.net/akildoo/article/details/92987953     win10+vs2017环境中编译64位的openh264.dll库文件   <要配置相应的inc/lib/path 物理机直接运行bat/云桌面msys2命令行运行>
+
+//msys2-meson环境编译(C:\FreeRdp\openh264-openh264v2.1.1/README.md)
+cd C:\FreeRdp\openh264-openh264v2.1.1
+meson setup buildder(自定义路径)
+meson compile -C buildder(自定义路径)
+meson install -C buildder(自定义路径)
+
+
+https://www.jianshu.com/p/5208f37090a9  使用
+https://blog.csdn.net/NB_vol_1/article/details/103376649?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-9.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-9.channel_param
+使用openh264进行视频编码
+
+(5)opencl-----cmake配置路径合成
+https://www.geeks3d.com/dl/show/640 下载GPU_Caps_Viewer_Setup，查看显卡支不支持opencl
+https://blog.csdn.net/SHSHSHSH1/article/details/105184891/ WINDOWS10+VS2019+OPENCL安装教程
+
+
+cmake配置路径合成
+-DOPENSSL_ROOT_DIR="D:\Tools\vcpkg\packages\openssl-windows_x64-windows"  
+-DLIBUSB_1_INCLUDE_DIR="D:\Tools\vcpkg\packages\libusb_x64-windows\include\libusb-1.0"  
+-DLIBUSB_1_LIBRARY="D:\Tools\vcpkg\packages\libusb_x64-windows\lib\libusb-1.0.lib" 
+-DWITH_OPENH264=ON -DOPENH264_LIBRARY="D:\Playground\C\openh264\openh264.lib" 
+-DOPENH264_INCLUDE_DIR="D:\Playground\C\openh264\include"
+
+vs2019链接依赖lib
+..\..\Debug\libusb-1.0.lib
+..\..\Debug\openh264.lib
+..\..\Debug\console_common.lib
+..\..\Debug\processing.lib
+..\..\Debug\encoder.lib
+..\..\Debug\decoder.lib
+..\..\Debug\common.lib
+..\..\Debug\OpenCL.lib
+
+vs2019 无法启动/ALL_BUILD
+需要将所要运行项目设成启动项
+
+
+
+Winodws下编译FreeRdp远程桌面程序<具体流程>
+C:\Users\A3458\Desktop\Winodws下编译OpenH264.docx
+
+
+3.基于Gstream开发的音视频播放器
+#####待布局#####
+
+4.virsh命令行<创建/销毁虚拟机>
+创建
+virsh define *.xml
+virsh start usr-name
+
+唤醒
+virsh dompmwakeup usr-name
+
+查看ip/port
+virsh domdisplay usr-name
+
+销毁
+virsh destroy usr-name
+virsh undefine usr-name
+
+5.其他
+win10系统电脑如何查看路由表（路由表）
+cmd: route print 
+查看freerdp连接的当前服务端用户名信息
+cmd 输入：query user
+
+6.待开发功能目录（1.怎么设置命令行参数	2.代码优化）
+<1>	多客户端（可以同时操作同一个服务端物理机/虚拟机）
+<2>	重定向功能
+	说明：当RDP客户端和RD会话主机服务器之间存在远程桌面协议（RDP）连接时，会频繁重定向数据和资源。此重定向允许RD会话主机服务器访问RDP客户端上的资源，以及允许RD会话主机服务器将数据从RD会话主机服务器上远程应用重定向到RDP客户端。
+	******重定向功能的一些示例包括******
+	1.键盘，鼠标和触摸输入：将来自RDP客户端的键盘，鼠标和触摸板输入的数据重定向到RD会话主机上的用户会话中。
+	2.打印机作业：将来自RD会话主机上的用户会话的打印作业重定向到RDP客户端的打印机。
+	3.媒体播放器内容：在RD会话主机上运行的应用可以将媒体播放器内容重定向到RDP客户端。
+	4.文件系统数据：RD会话主机可以使用文件系统重定向访问RDP客户端上的本地驱动器。
+	5.剪贴板：剪贴板重定向使用户能够将数据从运行在RD会话主机上的应用程序复制到位于RDP客户端上的剪贴板上，同时也允许位于RDP客户端上的剪贴板的数据复制到RD会话主机上。
+	6.智能卡：RD会话主机可以连接到RDP客户端上的智能卡并访问其中的凭据数据。
+	7.端口：RD会话主机可以连接到RDP客户端上的串行端口，并行端口和USB端口并访问其中的设备以及数据。
+	8.凭据：RDP客户端将本地凭据（用户名和密码）重定向连接到RD会话主机用于验证用户并登录。
+	9.usb重定向/透传
+ 
+ 
+ ########################################################Afreerdp-APK编译流程########################################################
+ 1.Linux 环境下编译 freeRDP
+ https://blog.csdn.net/qq_21586317/article/details/90302083
+ 
+ 2.Cmake/make-编译相关问题
+ 2.1 Cmake
+ ###################cmake -配置完成-完成生成-构建文件已写入：/ usr / local / freeRDP / FreeRDP###################
+ cmake -DCMAKE_TOOLCHAIN_FILE=cmake/AndroidToolchain.cmake -DCMAKE_BUILD_TYPE=Debug -DPKG_CONFIG_EXECUTABLE="/usr/local/pkgconfig/bin" -DANDROID_NDK="/usr/local/ndk/android-ndk-r9d" -DFREERDP_ANDROID_EXTERNAL_SSL_PATH="/usr/local/openssl-ndk/android-external-openssl-ndk-static" -DANDROID_BUILD_JAVA=OFF -DCMAKE_MAKE_PROGRAM="%ANDROID_NDK%/prebuilt/linux-x86_64/bin/make.exe"
+ 2.2 make
+  #include <sys/select.h> 解决unknown type name 'fd_set'
+  #include <fcntl.h> 解决'O_TRUNC' undeclared (first use in this function)
+  
+ 3.ubuntu下Android开发环境的搭建：eclipse+SDK详细安装教程+常见问题及其解决方案
+ https://blog.csdn.net/u012673089/article/details/48935573
+ 
+ 4.Android SDK Manager详解
+ https://blog.csdn.net/yangaiyu/article/details/106904611
+ 
+ 4.eclipse新建安卓项目
+ https://jingyan.baidu.com/article/c33e3f48dfc009ea15cbb5b3.html
+ 4.1 eclipse新建安卓项目点击finish后窗口无法关闭
+ https://www.bbsmax.com/A/mo5keRlQzw/
+ 4.2 eclipse已有选在的项目会出现信息错误，导致无法导入
+ https://jingyan.baidu.com/article/2f9b480d928a8341cb6cc285.html
+ 
+ 5./usr/local/freeRDP/FreeRDP/client/Android/FreeRDPCore/libs/armeabi-v7a/   -------->libfreerdp-android.so
+ 
+ 6.NDK编译的文件如何加载到Android项目
+ https://blog.csdn.net/chen_jie_2010/article/details/7279556
+ 
+ 7.Android Studio如何把so库编译进apk中
+ https://blog.csdn.net/Q316510202/article/details/79581543
+ 
+ 8.Android Studio安装教程
+ https://blog.csdn.net/dhhyx/article/details/108277116
+ 
+ 9.Linux下androidstudio安装使用说明
+ https://www.jianshu.com/p/e1f1b31b77ae
+ 
+ 10.eclipse编译libfreerdp-android.so生成APK
+ https://jingyan.baidu.com/article/546ae1850564a31149f28c98.html
+ 
+ 11.windows环境java jdk1.8.0_221 安装步骤
+ https://blog.csdn.net/u010058695/article/details/100983213
+ 
+ 12.详解Android APP开发环境搭建和配置（Windows 10系统为例）
+	https://www.jxbh.cn/article/2244.html	
+ 
+ 13 LVM扩容排错：/etc/lvm/archive/.lvm_ubuntu_2042_1912908381: write error failed: No space left on device（lvextend -L +20G /dev/ubuntu-vg/ubuntu-lv）
+ https://blog.csdn.net/yjk13703623757/article/details/80267647
+ 
+ 14 linux no space left on device 错误解决方法
+ https://blog.csdn.net/c_base_jin/article/details/86316755
+ 
+ 15 sdk tools没有cmake下载项的解决办法
+	https://blog.csdn.net/u014290233/article/details/53418371?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-8.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-8.control
+ 
+ 16 安装libncurses5时出现的错误
+ https://blog.csdn.net/weixin_45208598/article/details/105702092
+ 
+ 17 Linux：启动Android SDK或Android Emulator
+https://oomake.com/question/2549002
+
+18 开源Android Studio编译APK(另一种eclipse搭建Android环境，通过so编APK,较复杂)（不同分支！！！）
+https://github.com/FreeRDP/FreeRDP/blob/master/docs/README.android

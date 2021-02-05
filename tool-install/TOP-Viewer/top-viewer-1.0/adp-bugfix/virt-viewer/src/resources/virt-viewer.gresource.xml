@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/virt-manager/virt-viewer">
+    <file>ui/remote-viewer-connect.ui</file>
+    <file>ui/remote-viewer-iso-list.ui</file>
+    <file>ui/virt-viewer-about.ui</file>
+    <file>ui/virt-viewer-auth.ui</file>
+    <file>ui/virt-viewer-guest-details.ui</file>
+    <file>ui/virt-viewer-preferences.ui</file>
+    <file>ui/virt-viewer-vm-connection.ui</file>
+    <file>ui/virt-viewer-report.ui</file>
+    <file>ui/virt-viewer.ui</file>
+    <file>ui/virt-viewer-file-transfer-dialog.ui</file>
+    <file alias="icons/16x16/virt-viewer.png">../../icons/16x16/virt-viewer.png</file>
+    <file alias="icons/22x22/virt-viewer.png">../../icons/22x22/virt-viewer.png</file>
+    <file alias="icons/24x24/virt-viewer.png">../../icons/24x24/virt-viewer.png</file>
+    <file alias="icons/24x24/virt-viewer-usb.png">../../icons/24x24/virt-viewer-usb.png</file>
+    <file alias="icons/32x32/virt-viewer.png">../../icons/32x32/virt-viewer.png</file>
+    <file alias="icons/48x48/virt-viewer.png">../../icons/48x48/virt-viewer.png</file>
+    <file alias="icons/48x48/disconnect.png">../../icons/48x48/disconnect.png</file>
+    <file alias="icons/48x48/leave-fullscreen.png">../../icons/48x48/leave-fullscreen.png</file>
+    <file alias="icons/48x48/preference.png">../../icons/48x48/preference.png</file>
+    <file alias="icons/48x48/file.png">../../icons/48x48/file.png</file>
+    <file alias="icons/48x48/send-key.png">../../icons/48x48/send-key.png</file>
+    <file alias="icons/48x48/home.png">../../icons/48x48/home.png</file>
+    <file alias="icons/256x256/virt-viewer.png">../../icons/256x256/virt-viewer.png</file>
+  </gresource>
+</gresources>

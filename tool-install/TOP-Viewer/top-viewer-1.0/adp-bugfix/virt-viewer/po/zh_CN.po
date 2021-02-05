@@ -1,0 +1,777 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-06-23 19:21+0800\n"
+"PO-Revision-Date: 2020-06-23 19:22+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: src\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: remote-viewer-iso-list-dialog.c:156
+msgid "Failed to fetch CD names"
+msgstr "无法获取CD名称"
+
+#: remote-viewer-iso-list-dialog.c:205
+msgid "<b>Loading...</b>"
+msgstr ""
+
+#: remote-viewer-iso-list-dialog.c:276
+msgid "Refresh"
+msgstr "刷新"
+
+#: remote-viewer-iso-list-dialog.c:277
+msgid "Close"
+msgstr "关闭"
+
+#: remote-viewer-iso-list-dialog.c:297
+msgid "Unspecified error"
+msgstr "未知错误"
+
+#: remote-viewer-iso-list-dialog.c:318
+msgid "Failed to change CD"
+msgstr "无法更换CD"
+
+#: remote-viewer-iso-list-dialog.c:370
+msgid "Change CD"
+msgstr "更换CD"
+
+#: remote-viewer-main.c:44
+msgid "Top Viewer"
+msgstr ""
+
+#: remote-viewer.c:175
+msgid "Top viewer client"
+msgstr "Top Viewer 客户端"
+
+#: remote-viewer.c:206
+msgid ""
+"\n"
+"Error: can't handle multiple URIs\n"
+"\n"
+msgstr ""
+"\n"
+"错误：无法处理多个uri \n"
+"\n"
+
+#: remote-viewer.c:267 virt-viewer.c:200
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options\n"
+msgstr "运行 '%s --help' 查看可用命令行选项的完整列表\n"
+
+#: remote-viewer.c:534
+msgid "failed to parse ovirt uri"
+msgstr "解析 ovirt uri 失败"
+
+#: remote-viewer.c:553 virt-viewer.c:1105
+msgid "Authentication was cancelled"
+msgstr "已取消认证"
+
+#: remote-viewer.c:577
+#, c-format
+msgid "oVirt VM %s is not running"
+msgstr "oVirt VM %s 未运行"
+
+#: remote-viewer.c:591
+#, c-format
+msgid "oVirt VM %s has no display"
+msgstr "oVirt VM %s 没有显示器"
+
+#: remote-viewer.c:617
+#, c-format
+msgid "oVirt VM %s has no host information"
+msgstr "oVirt VM %s 没有主机虚拟系"
+
+#: remote-viewer.c:628
+#, c-format
+msgid "oVirt VM %s has unknown display type: %u"
+msgstr "oVirt VM %s 有未知显示类型：%u"
+
+#: remote-viewer.c:792
+msgid "Couldn't open oVirt session: "
+msgstr "无法打开 oVirt 会话 "
+
+#: remote-viewer.c:841
+msgid "Failed to initiate connection"
+msgstr "初始化连接失败"
+
+#: remote-viewer.c:870
+msgid "No connection was chosen"
+msgstr "没有选择任何连接"
+
+#: remote-viewer.c:887
+msgid "Failed to read stdin: "
+msgstr "无法读取输入 "
+
+#: remote-viewer.c:904
+#, c-format
+msgid "Invalid file %s: "
+msgstr "无效文件 %s "
+
+#: remote-viewer.c:914
+msgid "Cannot determine the connection type from URI"
+msgstr "无法确定 URI 的连接类型"
+
+#: remote-viewer.c:933
+#, c-format
+msgid "Unable to connect: %s"
+msgstr "无法连接到 %s"
+
+#: resources/ui/remote-viewer-connect.ui:6
+msgid "Connection details"
+msgstr "连接详情"
+
+#: resources/ui/remote-viewer-connect.ui:24
+msgid "Connection _Address"
+msgstr "连接地址"
+
+#: resources/ui/remote-viewer-connect.ui:54
+msgid "For example, spice://foo.example.org:5900"
+msgstr "例如：spice://foo.example.org:5900"
+
+#: resources/ui/remote-viewer-connect.ui:78
+msgid "Recent connections"
+msgstr "最近的连接"
+
+#: resources/ui/remote-viewer-connect.ui:120
+#: resources/ui/virt-viewer-auth.ui:27
+#: resources/ui/virt-viewer-file-transfer-dialog.ui:28
+#: resources/ui/virt-viewer-vm-connection.ui:24 virt-viewer-window.c:535
+#: virt-viewer-window.c:1426
+msgid "_Cancel"
+msgstr "取消"
+
+#: resources/ui/remote-viewer-connect.ui:134
+#: resources/ui/virt-viewer-vm-connection.ui:38
+msgid "C_onnect"
+msgstr "连接"
+
+#: resources/ui/remote-viewer-iso-list.ui:28
+msgid "Loading..."
+msgstr ""
+
+#: resources/ui/remote-viewer-iso-list.ui:78
+msgid "Select ISO"
+msgstr "选择 ISO"
+
+#: resources/ui/remote-viewer-iso-list.ui:116
+msgid "Selected"
+msgstr "选择"
+
+#: resources/ui/remote-viewer-iso-list.ui:129
+#: resources/ui/virt-viewer-vm-connection.ui:72
+msgid "Name"
+msgstr "名称"
+
+#: resources/ui/virt-viewer-about.ui:9
+msgid "About Top-Viewer"
+msgstr "关于 Top-Viewer"
+
+#: resources/ui/virt-viewer-about.ui:52
+msgid "Top-Viewer v1.01.1"
+msgstr ""
+
+#: resources/ui/virt-viewer-about.ui:87
+msgid "CopyRight by TOPSEC"
+msgstr "版权所有 天融信"
+
+#: resources/ui/virt-viewer-about.ui:103
+msgid "close"
+msgstr "关闭"
+
+#: resources/ui/virt-viewer-auth.ui:7
+msgid "Authentication required"
+msgstr "身份验证"
+
+#: resources/ui/virt-viewer-auth.ui:42
+msgid "_OK"
+msgstr ""
+
+#: resources/ui/virt-viewer-auth.ui:71
+#: resources/ui/virt-viewer-file-transfer-dialog.ui:57
+#: resources/ui/virt-viewer-guest-details.ui:82
+#: resources/ui/virt-viewer-guest-details.ui:96
+msgid "label"
+msgstr "标签"
+
+#: resources/ui/virt-viewer-auth.ui:93
+msgid "Password:"
+msgstr "密码："
+
+#: resources/ui/virt-viewer-auth.ui:105
+msgid "Username:"
+msgstr "用户名："
+
+#: resources/ui/virt-viewer-auth.ui:137
+msgid "Show password"
+msgstr "显示密码"
+
+#: resources/ui/virt-viewer-guest-details.ui:7
+msgid "Guest Details"
+msgstr "虚拟机详情"
+
+#: resources/ui/virt-viewer-guest-details.ui:23 virt-viewer-session-spice.c:886
+msgid "_Close"
+msgstr "关闭"
+
+#: resources/ui/virt-viewer-guest-details.ui:56
+msgid "Name:"
+msgstr "名称："
+
+#: resources/ui/virt-viewer-guest-details.ui:68
+msgid "GUID:"
+msgstr "GUID："
+
+#: resources/ui/virt-viewer-preferences.ui:8
+msgid "Preferences"
+msgstr "属性"
+
+#: resources/ui/virt-viewer-preferences.ui:48
+msgid "Folder sharing"
+msgstr "文件夹共享"
+
+#: resources/ui/virt-viewer-preferences.ui:70
+msgid "Share folder"
+msgstr "共享文件夹"
+
+#: resources/ui/virt-viewer-preferences.ui:82
+msgid "Read-only"
+msgstr "只读"
+
+#: resources/ui/virt-viewer-preferences.ui:118
+msgid "Spice"
+msgstr "Spice"
+
+#: resources/ui/virt-viewer-report.ui:8
+msgid "Top Notify"
+msgstr "消息通知"
+
+#: resources/ui/virt-viewer-vm-connection.ui:7
+msgid "Choose a virtual machine"
+msgstr "选择虚拟机"
+
+#: resources/ui/virt-viewer-vm-connection.ui:96
+msgid "Available virtual machines"
+msgstr "可用虚拟机"
+
+#: resources/ui/virt-viewer.ui:31
+msgid "_Usb"
+msgstr "Usb设备"
+
+#: resources/ui/virt-viewer.ui:44
+msgid "_Screenshot"
+msgstr "截屏"
+
+#: resources/ui/virt-viewer.ui:55
+msgid "_USB device selection"
+msgstr "USB设备选择"
+
+#: resources/ui/virt-viewer.ui:65
+msgid "Smartcard insertion"
+msgstr "插入智能卡"
+
+#: resources/ui/virt-viewer.ui:75
+msgid "Smartcard removal"
+msgstr "删除智能卡"
+
+#: resources/ui/virt-viewer.ui:83
+msgid "_Change CD"
+msgstr "更换设备"
+
+#: resources/ui/virt-viewer.ui:93
+msgid "_folders sharing"
+msgstr "文件夹共享"
+
+#: resources/ui/virt-viewer.ui:269
+msgid "_Quit"
+msgstr "退出"
+
+#: resources/ui/virt-viewer.ui:122
+msgid "_Machine"
+msgstr "机器"
+
+#: resources/ui/virt-viewer.ui:132
+msgid "_Pause"
+msgstr "暂停"
+
+#: resources/ui/virt-viewer.ui:147
+msgid "_Reset"
+msgstr "重置"
+
+#: resources/ui/virt-viewer.ui:156
+msgid "_Power down"
+msgstr "断电"
+
+#: resources/ui/virt-viewer.ui:170
+msgid "_Options"
+msgstr "选项"
+
+#: resources/ui/virt-viewer.ui:183
+msgid "_Full screen"
+msgstr "全屏"
+
+#: resources/ui/virt-viewer.ui:194
+msgid "_Zoom"
+msgstr "缩放"
+
+#: resources/ui/virt-viewer.ui:207
+msgid "Zoom _In"
+msgstr "放大"
+
+#: resources/ui/virt-viewer.ui:218
+msgid "Zoom _Out"
+msgstr "缩小"
+
+#: resources/ui/virt-viewer.ui:229
+msgid "Set _Resolution"
+msgstr "设置分辨率"
+
+#: resources/ui/virt-viewer.ui:246
+msgid "_Normal Size"
+msgstr "正常大小"
+
+#: resources/ui/virt-viewer.ui:260
+msgid "_Displays"
+msgstr "显示"
+
+#: resources/ui/virt-viewer.ui:269
+msgid "Release cursor"
+msgstr "释放光标"
+
+#: resources/ui/virt-viewer.ui:282
+msgid "_Send key"
+msgstr "发送按键"
+
+#: resources/ui/virt-viewer.ui:325
+msgid "_Help"
+msgstr "帮助"
+
+#: resources/ui/virt-viewer.ui:336
+msgid "_Guest Details"
+msgstr "虚拟机详情"
+
+#: resources/ui/virt-viewer.ui:346
+msgid "_About"
+msgstr "关于"
+
+#: virt-viewer-app.c:495
+msgid "Do you want to close the session?"
+msgstr "您要关闭这个会话吗？"
+
+#: virt-viewer-app.c:497
+msgid "Do not ask me again"
+msgstr "不要再问我"
+
+#: virt-viewer-app.c:668
+#, c-format
+msgid "Address is too long for unix socket_path: %s"
+msgstr "地址对于unix套接字路径太长 %s"
+
+#: virt-viewer-app.c:678
+#, c-format
+msgid "Creating unix socket failed: %s"
+msgstr "创建unix套接字失败 %s"
+
+#: virt-viewer-app.c:684
+#, c-format
+msgid "Connecting to unix socket failed: %s"
+msgstr "Connecting to unix socket failed %s"
+
+#: virt-viewer-app.c:1003
+#, c-format
+msgid "Waiting for display %d..."
+msgstr "等待显示器 %d......"
+
+#: virt-viewer-app.c:1116
+#, c-format
+msgid "Unsupported graphic type '%s'"
+msgstr "不支持的图形类型 '%s'"
+
+#: virt-viewer-app.c:1200
+msgid "Connect to ssh failed."
+msgstr "连接到 ssh 失败."
+
+#: virt-viewer-app.c:1215
+#, c-format
+msgid "Can't connect to channel: %s"
+msgstr "无法连接到通道 %s"
+
+#: virt-viewer-app.c:1217
+msgid "only SSH or unix socket connection supported."
+msgstr "only SSH or unix socket connection supported."
+
+#: virt-viewer-app.c:1230
+msgid "Connect to channel unsupported."
+msgstr "无法连接到不支持的通道。"
+
+#: virt-viewer-app.c:1292
+msgid "Display can only be attached through libvirt with --attach"
+msgstr "只能通过 libvirt 使用 --attach 连接显示器"
+
+#: virt-viewer-app.c:1317
+msgid "Connecting to graphic server"
+msgstr "正在连接到图形服务器"
+
+#: virt-viewer-app.c:1416
+msgid "Guest domain has shutdown"
+msgstr "已关闭虚拟机域"
+
+#: virt-viewer-app.c:1477
+msgid "Connected to graphic server"
+msgstr "已连接到图形服务器"
+
+#: virt-viewer-app.c:1506
+#, c-format
+msgid "Unable to connect to the graphic server %s"
+msgstr "无法连接到图形服务器 %s"
+
+#: virt-viewer-app.c:1532
+#, c-format
+msgid "Unable to authenticate with remote desktop server at %s: %s\n"
+msgstr "无法使用远程桌面服务器在  %s 认证： %s\n"
+
+#: virt-viewer-app.c:1546
+#, c-format
+msgid "Unable to authenticate with remote desktop server: %s"
+msgstr "无法使用远程桌面服务器验证：%s"
+
+#: virt-viewer-app.c:1554
+#, c-format
+msgid "USB redirection error: %s"
+msgstr "USB 重新定向错误：%s"
+
+#: virt-viewer-app.c:1998
+#, c-format
+msgid "Zoom level must be within %d-%d\n"
+msgstr "缩放级别必须在 %d-%d 之间\n"
+
+#: virt-viewer-app.c:2066
+#, c-format
+msgid "%s\n"
+msgstr ""
+
+#: virt-viewer-app.c:2076
+#, c-format
+msgid "%s version %s"
+msgstr "%s 版本 %s"
+
+#: virt-viewer-app.c:2701
+#, c-format
+msgid "Display _%d"
+msgstr "显示器 %d"
+
+#: virt-viewer-app.c:2992
+#, c-format
+msgid "Invalid kiosk-quit argument: %s"
+msgstr "无效的 kiosk-quit 参数：%s"
+
+#: virt-viewer-auth.c:89
+#, c-format
+msgid ""
+"Authentication is required for the %s connection to:\n"
+"\n"
+"<b>%s</b>\n"
+"\n"
+msgstr ""
+"%s 连接需要认证：\n"
+"\n"
+"<b>%s</b>\n"
+"\n"
+
+#: virt-viewer-auth.c:93
+#, c-format
+msgid "Authentication is required for the %s connection:\n"
+msgstr "需要为 %s 连接进行认证：\n"
+
+#: virt-viewer-display-vnc.c:130
+msgid "VNC does not provide GUID"
+msgstr "VNC 不提供 GUID"
+
+#: virt-viewer-display-vte.c:181
+msgid "Console support is compiled out!"
+msgstr "控制台支持已编译完毕！"
+
+#: virt-viewer-file-transfer-dialog.c:124
+msgid "File Transfers"
+msgstr "文件传输"
+
+#: virt-viewer-file-transfer-dialog.c:150
+msgid "Transferring 1 file..."
+msgstr "传输1个文件  ..."
+
+#: virt-viewer-file-transfer-dialog.c:152
+#, c-format
+msgid "Transferring %u file of %u..."
+msgid_plural "Transferring %u files of %u..."
+msgstr[0] "从 %u 转移文件到  %u ..."
+
+#: virt-viewer-file-transfer-dialog.c:224
+#, c-format
+msgid "An error caused the following file transfers to fail:%s"
+msgstr "一个错误导致以下文件传输失败  %s"
+
+#: virt-viewer-file.c:875
+#, c-format
+msgid ""
+"At least %s version %s is required to setup this connection, see %s for "
+"details"
+msgstr "设置这个连接至少需要 %s 的 %s 版本，详情请查看 %s"
+
+#: virt-viewer-file.c:883
+#, c-format
+msgid "At least %s version %s is required to setup this connection"
+msgstr "设置这个连接至少需要 %s 的 %s 版本"
+
+#: virt-viewer-main.c:38
+msgid "Virt Viewer"
+msgstr "Virt Viewer"
+
+#: virt-viewer-session-spice.c:786
+msgid "Invalid password"
+msgstr "无效密码"
+
+#: virt-viewer-session-spice.c:884
+msgid "Select USB devices for redirection"
+msgstr "为重新定向选择 USB 设备"
+
+#: virt-viewer-session-spice.c:1074
+msgid "Serial"
+msgstr ""
+
+#: virt-viewer-session-spice.c:1076
+msgid "QEMU human monitor"
+msgstr ""
+
+#: virt-viewer-session-spice.c:1078
+msgid "QEMU debug console"
+msgstr "QEMU调试控制台"
+
+#: virt-viewer-session-vnc.c:158
+#, c-format
+msgid "Unsupported authentication type %u"
+msgstr "Unsupported authentication type %u"
+
+#: virt-viewer-vm-connection.c:64
+msgid "No running virtual machine found"
+msgstr "找不到正在运行的虚拟机"
+
+#: virt-viewer-vm-connection.c:93
+msgid "No virtual machine was chosen"
+msgstr "未选择虚拟机"
+
+#: virt-viewer-window.c:530
+msgid "Resize guest to"
+msgstr "调整分辨率"
+
+#: virt-viewer-window.c:533
+msgid "_Apply"
+msgstr "应用"
+
+#: virt-viewer-window.c:551
+msgid "Resize the guest display:"
+msgstr "调整屏幕分辨率 :"
+
+#: virt-viewer-window.c:552
+msgid "width:"
+msgstr "宽 :"
+
+#: virt-viewer-window.c:554
+msgid "height:"
+msgstr "高 :"
+
+#: virt-viewer-window.c:1014
+msgid "resize guest"
+msgstr "调整来宾大小"
+
+#: virt-viewer-window.c:1015
+msgid "scaling"
+msgstr "缩放"
+
+#: virt-viewer-window.c:1016
+msgid "disable inputs"
+msgstr "禁止输入"
+
+#: virt-viewer-window.c:1017
+msgid "auto clipboard"
+msgstr "共享剪贴板"
+
+#: virt-viewer-window.c:1018
+msgid "image compression"
+msgstr "图像压缩类型"
+
+#: virt-viewer-window.c:1019
+msgid "video codec type"
+msgstr "视频编码类型"
+
+#: virt-viewer-window.c:1062
+msgid "screenshot"
+msgstr "截屏"
+
+#: virt-viewer-window.c:1063
+msgid "usb device selection"
+msgstr "usb设备选择"
+
+#: virt-viewer-window.c:1064
+msgid "folders sharing"
+msgstr "文件夹共享"
+
+#: virt-viewer-window.c:1400
+#, c-format
+msgid "Unable to determine image format for file '%s'"
+msgstr "无法确定文件的图像格式  '%s'"
+
+#: virt-viewer-window.c:1427
+msgid "_Save"
+msgstr ""
+
+#: virt-viewer-window.c:1435
+msgid "Screenshot.png"
+msgstr ""
+
+#: virt-viewer-window.c:1509 virt-viewer-window.c:1511
+msgid "Unknown"
+msgstr "未知"
+
+#: virt-viewer-window.c:1607
+msgid "Unable to connnect to oVirt"
+msgstr "无法连接 ovirt"
+
+#: virt-viewer-window.c:1631 virt-viewer-window.c:1632
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: virt-viewer-window.c:1654 virt-viewer-window.c:1655
+msgid "Leave fullscreen"
+msgstr "离开全屏"
+
+#: virt-viewer-window.c:1664 virt-viewer-window.c:1665
+msgid "preference"
+msgstr "属性"
+
+#: virt-viewer-window.c:1676 virt-viewer-window.c:1700
+msgid "Usb"
+msgstr "Usb"
+
+#: virt-viewer-window.c:1689 virt-viewer-window.c:1690
+msgid "Send key combination"
+msgstr "发送按键组合"
+
+#: virt-viewer-window.c:1701 virt-viewer-window.c:1702
+msgid "home"
+msgstr "主页"
+
+#: virt-viewer-window.c:1777
+msgid "Ctrl+Alt"
+msgstr "Ctrl+Alt"
+
+#: virt-viewer-window.c:1780
+#, c-format
+msgid "(Press %s to release pointer)"
+msgstr "(按 %s 释放光标)"
+
+#: virt-viewer-window.c:1791
+#, c-format
+msgid "%s%s%s - %s"
+msgstr "%s%s%s - %s"
+
+#: virt-viewer-window.c:1795
+msgid " "
+msgstr ""
+
+#: virt-viewer.c:152
+msgid "Virtual machine graphical console"
+msgstr "虚拟机图形控制台"
+
+#: virt-viewer.c:171
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [OPTIONS] [ID|UUID|DOMAIN-NAME]\n"
+"\n"
+msgstr ""
+
+#: virt-viewer.c:183
+#, c-format
+msgid ""
+"\n"
+"No ID|UUID|DOMAIN-NAME was specified for '%s'\n"
+"\n"
+msgstr ""
+
+#: virt-viewer.c:296
+msgid "Waiting for guest domain to re-start"
+msgstr "等待虚拟机域重启"
+
+#: virt-viewer.c:550
+#, c-format
+msgid "Cannot determine the graphic type for the guest %s"
+msgstr "无法确定虚拟机 %s 的图形类型"
+
+#: virt-viewer.c:599
+#, c-format
+msgid "Cannot determine the host for the guest %s"
+msgstr "无法确定虚拟机 %s 的主机"
+
+#: virt-viewer.c:627
+#, c-format
+msgid "Guest '%s' is not reachable"
+msgstr "无法访问 '%s'"
+
+#: virt-viewer.c:856
+#, c-format
+msgid "Virtual machine %s is not running"
+msgstr "虚拟机 %s 未运行"
+
+#: virt-viewer.c:881
+msgid "Waiting for libvirt to start"
+msgstr "等待 libvirt 启动"
+
+#: virt-viewer.c:885
+msgid "Finding guest domain"
+msgstr "正在查找虚拟机域"
+
+#: virt-viewer.c:889
+msgid "Waiting for guest domain to be created"
+msgstr "正在等待生成虚拟机域"
+
+#: virt-viewer.c:921
+msgid "Checking guest domain status"
+msgstr "正在检查虚拟机域状态"
+
+#: virt-viewer.c:924
+msgid "Cannot get guest state"
+msgstr "无法获得虚拟机状态"
+
+#: virt-viewer.c:930
+msgid "Waiting for guest domain to start"
+msgstr "正在等待虚拟机域启动"
+
+#: virt-viewer.c:1044
+#, c-format
+msgid "Unable to connect to libvirt with URI: %s."
+msgstr "无论使用 URI 连接到 libvirt：%s."
+
+#: virt-viewer.c:1045
+msgid "[none]"
+msgstr "[无]"
+
+#: virt-viewer.c:1052
+msgid "Authentication failed."
+msgstr "认证失败。"
+
+#: virt-viewer.c:1112
+msgid "Failed to connect: "
+msgstr "无法连接 "
+
+#~ msgid "_Preferences"
+#~ msgstr "属性"
+
+#~ msgid "preferences"
+#~ msgstr "属性"

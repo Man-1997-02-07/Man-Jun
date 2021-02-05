@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+  <?define Version = "@WINDOWS_PRODUCTVERSION@"?>
+  <?define Arch = "@WIXL_ARCH@"?>
+  <?if $(var.Arch) = "x64"?>
+      <?define GLIB_ARCH = "win64"?>
+      <?define ArchString = "64-bit"?>
+      <?define ArchProgramFilesFolder = "ProgramFiles64Folder"?>
+      <?define Win64 = "yes"?>
+  <?else?>
+      <?define GLIB_ARCH = "win32"?>
+      <?define ArchString = "32-bit"?>
+      <?define ArchProgramFilesFolder = "ProgramFilesFolder"?>
+      <?define Win64 = "no"?>
+  <?endif?>
+
+  <?if $(var.HaveSpiceGtk) = "True"?>
+    <?require spice-gtk3.wxi?>
+  <?endif?>
+  <?if $(var.HaveGtkVnc) = "True"?>
+    <?require gtk-vnc2.wxi?>
+  <?endif?>
+  <?require adwaita-icon-theme.wxi?>
+  <?if $(var.HaveLibvirt) = "True"?>
+    <?require libvirt.wxi?>
+    <?require libvirt-glib.wxi?>
+  <?endif?>
+  <?if $(var.HaveOVirt) = "True"?>
+    <?require libgovirt.wxi?>
+  <?endif?>
+  <?require libxml2.wxi?>
+  <?require json-glib.wxi?>
+
+  <?define UpgradeCode = "5B027138-1A63-49E6-877E-055E5EEC1903"?>
+  <Product Id="*"
+           Name="TopViewer @VERSION@@BUILDID@ ($(var.ArchString))"
+           Manufacturer="$(env.MANUFACTURER)"
+           Version="$(var.Version)"
+           UpgradeCode="$(var.UpgradeCode)"
+           Language="1033">
+
+    <Package InstallerVersion="200" Compressed="yes" Comments="comments" InstallScope="perMachine"/>
+    <Media Id="1" Cabinet="cabinet.cab" EmbedCab="yes"/>
+
+    <Property Id="ARPHELPLINK" Value="http://www.virt-tools.org"/>
+    <Property Id="ARPNOMODIFY" Value="1"/>
+    <Property Id="ARPNOREPAIR" Value="1"/>
+    <Property Id="ARPPRODUCTICON" Value="virt-viewer.ico"/>
+    <Property Id="ARPURLINFOABOUT" Value="http://www.virt-tools.org/about"/>
+    <Upgrade Id="$(var.UpgradeCode)">
+      <UpgradeVersion Minimum="$(var.Version)" OnlyDetect="yes" Property="NEWERVERSIONDETECTED"/>
+      <UpgradeVersion Minimum="0.0.0" Maximum="$(var.Version)" IncludeMinimum="yes" IncludeMaximum="no" Property="OLDERVERSIONBEINGUPGRADED"/>
+    </Upgrade>
+    <Condition Message="TopViewer is already installed.">NOT NEWERVERSIONDETECTED</Condition>
+
+    <DirectoryRef Id="TARGETDIR">
+      <Component Id="CRegistryEntries" Guid="*" Win64="yes">
+        <RegistryKey Root='HKCR' Key='spice'>
+          <RegistryValue Type='string' Name='URL Protocol' Value='' />
+        </RegistryKey>
+        <RegistryKey Root='HKCR' Key='spice\DefaultIcon'>
+          <RegistryValue Type='string' Value='' />
+        </RegistryKey>
+        <RegistryKey Root='HKCR' Key='spice\shell'>
+          <RegistryValue Type='string' Value='' />
+        </RegistryKey>
+        <RegistryKey Root='HKCR' Key='spice\shell\open'>
+          <RegistryValue Type='string' Value='' />
+        </RegistryKey>
+        <RegistryKey Root='HKCR' Key='spice\shell\open\command'>
+          <RegistryValue Type='string' Value='"[INSTALLDIR]bin\top-viewer.exe" "%1"' />
+        </RegistryKey>
+        <RegistryKey Root='HKLM' Key='Software\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{96190E9D-6FBB-64DB-9095-29F6FDE0B897}'>
+          <RegistryValue Type='string' Name='AppPath' Value='[INSTALLDIR]bin'/>
+          <RegistryValue Type='string' Name='AppName' Value='top-viewer.exe'/>
+          <RegistryValue Type='integer' Name='Policy' Value='3'/>
+        </RegistryKey>
+        <RegistryKey Root='HKLM' Key='Software\spice-space.org\spicex'>
+          <RegistryValue Type='string' Name='client' Value='[INSTALLDIR]bin\top-viewer.exe --spice-controller'/>
+        </RegistryKey>
+	<RegistryKey Root='HKLM' Key='Software\Microsoft\Windows\CurrentVersion\Run'>
+		<RegistryValue Type='string' Name='TOP-VDIAGENT' Value='[INSTALLDIR]vdiagent.exe'/>
+		<!--RegistryValue Type='string' Name='TOP-USBDK' Value='[INSTALLDIR]UsbDk_1.0.21_x64.msi'/-->
+        </RegistryKey>
+      </Component>
+
+      <Component Id="CProgIds" Guid="89D6F46D-9C5E-4D65-8456-58FC361E553E">
+        <ProgId Id='TopViewer.vvfile' Description='TopViewer connection file'>
+          <Extension Id='vv' ContentType='application/x-Top-viewer'>
+            <Verb Id='open' Command='Open' TargetFile='fil610DF9E49759B1DEC646290195F96F8A' Argument='"%1"' />
+            <MIME ContentType="application/x-Top-viewer" Default="yes"/>
+          </Extension>
+        </ProgId>
+      </Component>
+    </DirectoryRef>
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="$(var.ArchProgramFilesFolder)">
+        <Directory Id="INSTALLDIR" Name="TopViewer@VERSION@@BUILDID@">
+          <Component Id="CBuildEnvFile" Guid="*">
+            <File Id="filA1E799D196006E6DF67DACE15B8C6193" KeyPath="yes" Source="buildenv.txt"/>
+          </Component>
+          <Component Id="Top_Agent" Guid="*" Win64="yes">
+		  <File Id="vdi_agent" Name="vdiagent.exe"    Source="/home/vdiagent/vdiagent.exe"/>
+		  <File Id="vdi_manger" Name="manager.exe"    Source="/home/vdiagent/manager.exe"/>
+		  <File Id="vdi_stop" Name="stop.bat"  Source="/home/vdiagent/stop.bat"/>
+		  <File Id="vdi_admin"  Name="vdiagent_admin"  Source="/home/vdiagent/vdiagent_admin.lnk"/>
+		  <File Id="vdi_conf"  Name="vdiagent.conf"  Source="/home/vdiagent/vdiagent.conf"/>
+		  <File Id="top_usbdk"  Name="UsbDk_1.0.21_x64.msi"  Source="/home/vdiagent/UsbDk_1.0.21_x64.img"/>
+	          <File Id="top_setup"  Name="Topsec_Setup_1.0.0.exe"  Source="/home/vdiagent/Topsec_Setup_1.0.0.exe"/>
+	  </Component>
+        </Directory>
+      </Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="MENUDIR" Name="TopViewer"/>
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="INSTALLDIR">
+      <Directory Id="DirShare" Name="share">
+        <Directory Id="DirHwdata" Name="hwdata">
+          <Component Id="CHwdataUSB" Guid="*">
+            <File Id="FHwdataUSB" KeyPath="yes" Source="/usr/share/hwdata/usb.ids"/>
+          </Component>
+        </Directory>
+      </Directory>
+    </DirectoryRef>
+
+    <DirectoryRef Id="INSTALLDIR">
+	<Directory Id="DirBin" Name="bin">
+	  <Component Id="Celt" Guid="*">
+		  <File Id="LibCelt" KeyPath="yes" Source="/usr/x86_64-w64-mingw32/sys-root/mingw/bin/libcelt051-0.dll"/>
+	  </Component>
+        </Directory>
+    </DirectoryRef>
+
+
+
+    
+      <DirectoryRef Id="DirShare" >
+        <Directory Id="TopThemes" Name="themes">
+	  <Directory Id = "TopGtk" Name="Arc-Black-Classic">
+	    <Directory Id = "TopGtk2" Name="gtk-3.0">
+	      <Component Id="CHwdataThemes" Guid="*">
+	        <File Id="TopThemes1"  Source="/usr/share/themes/Arc-Black-Classic/gtk-3.0/gtk-dark.css"/>
+	        <File Id="TopThemes2"  Source="/usr/share/themes/Arc-Black-Classic/gtk-3.0/gtk.css"/>
+	        <File Id="TopThemes3"  Source="/usr/share/themes/Arc-Black-Classic/gtk-3.0/gtk.gresource"/>
+	        <File Id="TopThemes4"  Source="/usr/share/themes/Arc-Black-Classic/gtk-3.0/thumbnail.png"/>
+              </Component>
+	    </Directory>
+	 </Directory>
+      </Directory>
+    </DirectoryRef>
+
+    <DirectoryRef Id="MENUDIR">
+      <Component Id="CShortcut" Guid="*">
+        <Shortcut Id="ApplicationStartMenuShortcut"
+                  Name="Top viewer"
+                  Description="A SPICE/VNC client"
+                  Target="[INSTALLDIR]\bin\Top-viewer.exe"
+                  Icon="virt-viewer.ico"/>
+        <RemoveFolder Id="MENUDIR" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\topViewer\top-viewer-shortcut" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+
+
+
+    <Feature Id="Complete"  Level="1">
+      <?if $(var.HaveSpiceGtk) = "True"?>
+        <ComponentGroupRef Id="CG.spice-gtk3"/>
+      <?endif?>
+      <?if $(var.HaveGtkVnc) = "True"?>
+        <ComponentGroupRef Id="CG.gtk-vnc2"/>
+      <?endif?>
+      <ComponentGroupRef Id="CG.adwaita-icon-theme"/>
+      <?if $(var.HaveLibvirt) = "True"?>
+        <ComponentGroupRef Id="CG.libvirt"/>
+        <ComponentGroupRef Id="CG.libvirt-glib"/>
+      <?endif?>
+      <?if $(var.HaveOVirt) = "True"?>
+        <ComponentGroupRef Id="CG.libgovirt"/>
+      <?endif?>
+      <ComponentGroupRef Id="CG.libxml2"/>
+      <ComponentGroupRef Id="CG.json-glib"/>
+      <ComponentGroupRef Id="CG.virt-viewer"/>
+      <ComponentRef Id="CBuildEnvFile"/>
+      <ComponentRef Id="CShortcut"/>
+      <ComponentRef Id="CRegistryEntries"/>
+      <ComponentRef Id="CProgIds"/>
+      <ComponentRef Id="CHwdataUSB"/>
+      <ComponentRef Id="CHwdataThemes"/>
+      <ComponentRef Id="Celt"/>	      
+      <ComponentRef Id="Top_Agent"/>
+    </Feature>
+	    
+    <CustomAction Id="topsec_setupEXE_CA" FileKey="top_setup" Impersonate="yes" Execute="commit" ExeCommand="" Return="ignore"  />
+    <CustomAction Id="topsec_usbdkEXE_CA" FileKey="top_usbdk" Impersonate="yes" Execute="commit" ExeCommand="" Return="asyncWait"/>
+    <CustomAction Id="vdiagentEXE_CA" FileKey="vdi_agent" Impersonate="yes" Execute="commit" ExeCommand="" Return="ignore"/>
+
+   
+
+    <InstallExecuteSequence>
+      <!--Custom Action="topsec_usbdkEXE_CA" After="InstallInitialize" /-->
+      <Custom Action="topsec_setupEXE_CA" After="InstallFinalize" />
+      <ScheduleReboot After="InstallFinalize">NOT REMOVE</ScheduleReboot>
+      <RemoveExistingProducts After="InstallValidate"/>
+    </InstallExecuteSequence>
+
+    <Icon Id="virt-viewer.ico" SourceFile="../icons/virt-viewer.ico"/>
+  </Product>
+</Wix>

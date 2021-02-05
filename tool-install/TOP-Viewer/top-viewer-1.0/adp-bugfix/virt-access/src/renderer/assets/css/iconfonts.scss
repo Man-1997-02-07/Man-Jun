@@ -1,0 +1,331 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("../fonts/iconfont.eot?8lkktj");
+  src: url("../fonts/iconfont.eot?8lkktj#iefix") format("embedded-opentype"),
+    url("../fonts/iconfont.ttf?8lkktj") format("truetype"),
+    url("../fonts/iconfont.woff?8lkktj") format("woff"),
+    url("../fonts/iconfont.svg?8lkktj#iconfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="im-icon-"]:after,
+[class*=" im-icon-"]:after {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+i[class*=" im-icon-"]:after {
+  margin-left: 3px;
+  display: inline-block;
+}
+// 导航栏
+.im-icon-analysis:after {
+  content: "\e90b";
+}
+.im-icon-storage:after {
+  content: "\e931";
+}
+.im-icon-resources:after {
+  content: "\e94c";
+}
+.im-icon-maintain:after {
+  content: "\e94f";
+}
+.im-icon-bussiness:after {
+  content: "\e950";
+}
+.im-icon-net:after {
+  content: "\e94e";
+}
+.im-icon-function:after {
+  content: "\e901";
+}
+.im-icon-security:after {
+  content: "\e943";
+}
+.im-icon-manager:after {
+  content: "\e94d";
+}
+
+// 用户操作
+.im-icon-bell:after {
+  content: "\e942";
+}
+.im-icon-operate:after {
+  content: "\e930";
+}
+.im-icon-editword:after {
+  content: "\e912";
+}
+.im-icon-email:after {
+  content: "\e903";
+}
+.im-icon-fan:after {
+  content: "\e91e";
+}
+.im-icon-jian:after {
+  content: "\e92c";
+}
+.im-icon-en:after {
+  content: "\e92e";
+}
+.im-icon-ms:after {
+  content: "\e908";
+}
+.im-icon-exit:after {
+  content: "\e900";
+}
+.im-icon-corect:after {
+  content: "\e91a";
+}
+// 缴费
+.im-icon-pay:after {
+  content: "\e904";
+}
+// 删除
+.im-icon-del:after {
+  content: "\e911";
+}
+// 绑定
+.im-icon-map:after {
+  content: "\e916";
+}
+// 未绑定
+.im-icon-unmap:after {
+  content: "\e915";
+}
+// 编辑
+.im-icon-edit:after {
+  content: "\e902";
+}
+// 切换
+.im-icon-ldap:after {
+  content: "\e913";
+}
+// 叉删除
+.im-icon-error:after {
+  content: "\e90c";
+}
+// 添加
+.im-icon-addbtn:after {
+  content: "\e90d";
+}
+// 恢复
+.im-icon-restore:after {
+  content: "\e92b";
+}
+// 停止
+.im-icon-cp-stop:after {
+  content: "\e937";
+}
+// 启动
+.im-icon-cp-start:after {
+  content: "\e948";
+}
+.im-icon-cp-suspend:after {
+  content: "\e93c";
+}
+.im-icon-cp-save:after {
+  content: "\e949";
+}
+.im-icon-cp-reboot:after {
+  content: "\e94a";
+}
+.im-icon-cp-restore:after {
+  content: "\e939";
+}
+.im-icon-cp-resume:after {
+  content: "\e93a";
+}
+.im-icon-cp-import:after {
+  content: "\e906";
+}
+.im-icon-cp-export:after {
+  content: "\e68b";
+}
+.im-icon-cp-hang:after {
+  content: "\e910";
+}
+.im-icon-cp-migrate:after {
+  content: "\e94b";
+}
+.im-icon-cp-template:after {
+  content: "\e93b";
+}
+.im-icon-cp-interface:after {
+  content: "\e940";
+}
+.im-icon-screen:after {
+  content: "\e923";
+}
+.im-icon-cp-clone:after {
+  content: "\e946";
+}
+// 刷新
+.im-icon-refresh:after {
+  content: "\e92d";
+}
+// 软驱
+.im-icon-cp-cdrom:after {
+  content: "\e938";
+}
+// 光驱
+.im-icon-cp-floppy:after {
+  content: "\e947";
+}
+// 操作系统
+.im-icon-os-other:after {
+  content: "\e93f";
+}
+.im-icon-os-linux:after {
+  content: "\e935";
+}
+.im-icon-os-windows:after {
+  content: "\e936";
+}
+.im-icon-os_apple:after {
+  content: "\e95d";
+}
+.im-icon-os_centOS:after {
+  content: "\e95e";
+}
+.im-icon-os_debian:after {
+  content: "\e95f";
+}
+.im-icon-os_fedora:after {
+  content: "\e960";
+}
+.im-icon-os_freebsd:after {
+  content: "\e961";
+}
+.im-icon-os_linux:after {
+  content: "\e965";
+}
+.im-icon-os_solaris:after {
+  content: "\e966";
+}
+.im-icon-os_other:after {
+  content: "\e967";
+}
+.im-icon-os_netbsd:after {
+  content: "\e975";
+}
+.im-icon-os_openbsd:after {
+  content: "\e976";
+}
+.im-icon-os_opensuse:after {
+  content: "\e977";
+}
+.im-icon-os_redhat:after {
+  content: "\e978";
+}
+.im-icon-os_ubuntu:after {
+  content: "\e97e";
+}
+.im-icon-os_windows:after {
+  content: "\e97f";
+}
+// 集群列表
+.im-icon-using:after {
+  content: "\e926";
+}
+.im-icon-sign:after {
+  content: "\e927";
+}
+.im-icon-apparel:after {
+  content: "\e968";
+}
+// 收集日志
+.im-icon-collect:after {
+  content: "\e90e";
+}
+// 标签
+.im-icon-mg-label:after {
+  content: "\e944";
+}
+// PDF
+.im-icon-pdf:after {
+  content: "\e964";
+}
+// 磁盘健康状态
+.im-icon-health:after {
+  content: "\e945";
+}
+// 副本
+.im-icon-replica:after {
+  content: "\e92a";
+}
+//虚拟副本
+.im-icon-xunifuben:after {
+  content: "\e689";
+}
+// USB
+.im-icon-cp-usb1:after {
+  content: "\e957";
+}
+// SMB
+.im-icon-smb:after {
+  content: "\e95b";
+}
+// 一键检测
+.im-icon-keyCheck:after {
+  content: "\e905";
+}
+// 分配
+.im-icon-allot:after {
+  content: "\e907";
+}
+// 取消分配
+.im-icon-unAllot:after {
+  content: "\e90a";
+}
+// 监控关闭
+.im-icon-monitor-stop:after {
+  content: "\e90f";
+}
+// 同步账号
+.im-icon-synAccount:after {
+  content: "\e909";
+}
+// 正常
+.im-icon-corect:after {
+  content: "\e91a";
+}
+// 异常
+.im-icon-fail:after {
+  content: "\e919";
+}
+//宿主机-引用标签
+.im-icon-yinyongbiaoqian:after {
+  content: "\e68e";
+}
+//宿主机-停止服务
+.im-icon-tingzhifuwu:after {
+  content: "\e68f";
+}
+//宿主机-设置网关
+.im-icon-shezhiwangguan:after {
+  content: "\e690";
+}
+//宿主机-设置DPMI
+.im-icon-shezhiIPMI:after {
+  content: "\e691";
+}
+//宿主机-解除绑定
+.im-icon-jiechubangding:after {
+  content: "\e692";
+}
+//宿主机-编辑标签
+.im-icon-bianjibiaoqian:after {
+  content: "\e693";
+}
+//宿主机-添加服务
+.im-icon-tianjiafuwu:after {
+  content: "\e694";
+}

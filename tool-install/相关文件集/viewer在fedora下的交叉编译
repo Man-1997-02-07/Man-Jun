@@ -1,0 +1,62 @@
+Fedora33下编译virt-viewer流程
+
+
+1.编译gstream套件
+-----------------交叉编译gstreamer-1.18.0的问题----------------
+1>.meson --cross-file cross_file.txt builddir
+遇到：Program flex win_flex found: NO   ---->  yum install flex.x86_64
+遇到：Program bison win_bison found: NO  ----->  yum install bison.x86_64
+
+2>.meson configure builddir/  -Dprefix=/usr/x86_64-w64-mingw32/sys-root/mingw
+
+3>.meson compile -C  builddir/
+
+4>.meson install -C  builddir/
+
+---------------------交叉编译gst-plugins-base-1.18.0---------------
+meson交叉编译4步同上
+在compile时遇到的问题：../tests/examples/gl/sdl/sdlshare2.c:106:54: error: 'GL_CLAMP_TO_EDGE' undeclared (first use in this function)
+解决：直接在gst-plugins-base-1.18.0/tests/examples/gl/sdl/sdlshare2.c里面把GL_CLAMP_TO_EDGE换成0x812F即可
+
+
+-------------------交叉编译gst-plugins-good-1.18.0-----------
+meson交叉编4步即可
+
+
+
+-------------------交叉编译gst-plugins-bad-1.18.0-----------
+在第一步--cross-file时报错:meson.build:1:0: ERROR: Unknown compiler
+解决：修改meson.build的第一行，project('gst-plugins-bad', 'c', 'c++',  修改为project('gst-plugins-bad', 'c',
+再在gst_version_is_dev后面加入have_cxx = add_languages('cpp', native: false, required: false)
+
+2.编译spice-gtk
+1>.meson --cross-file cross_file.txt builddir
+2>.meson configure builddir/  -Dprefix=/usr/x86_64-w64-mingw32/sys-root/mingw
+3>.meson compile -C  builddir/
+4>.meson install -C  builddir/
+
+
+------------------cross_file.txt文件内容---------
+[host_machine]
+system = 'windows'
+cpu_family = 'x86_64'(编32位x86_64换为x86)
+cpu = 'x86_64'
+endian = 'little'
+
+[properties]
+c_args = []
+c_link_args = []
+
+[binaries]
+c = 'x86_64-w64-mingw32-gcc'(编32位x86_64换为i686)
+cpp = 'x86_64-w64-mingw32-g++'
+ar = 'x86_64-w64-mingw32-ar'
+ld = 'x86_64-w64-mingw32-ld'
+objcopy = 'x86_64-w64-mingw32-objcopy'
+strip = 'x86_64-w64-mingw32-strip'
+pkgconfig = 'x86_64-w64-mingw32-pkg-config'
+windres = 'x86_64-w64-mingw32-windres'
+------------------------------------------------------------------
+
+3.编译virt-viewer
+参照adp/virt-viewer下的README.md
