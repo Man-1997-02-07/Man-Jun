@@ -1,0 +1,60 @@
+Viewer的http客户端数据格式：
+
+1.修改分辨率：
+	Path：/top-viewer/resize
+	Request_body：{"resolution": "A*B"}
+	
+2.禁止输入：
+	Path：/top-viewer/disinput
+	Request_body：{"disinput": "true"("false")}    true：禁止输入；false：允许输入
+	
+3.设置图像压缩算法：
+	Path: /top-viewer/change_image_compression
+	Request_body: {"compression": "auto-glz"}    可选参数: auto-glz、auto-lz、quic、glz、lz、lz4、off
+	
+4.设置视频编码格式：
+	Path: /top-viewer/change_video_code
+	Request_body: {"videocode": "mjpeg"}  可选参数：mjpeg、vp8、vp9、h264
+	
+	
+5.命令行启动格式：
+	http-server指定端口:-o port(不选随机监听可用端口)
+	禁止输入: -d 
+	启动全屏: -f
+	图片压缩算法：-p auto-glz(auto-lz,quic,glz,lz,lz4,off)
+	视频压缩算法：-c mjpeg (vp8,vp9,h264)
+	
+6.http打开通知窗口：
+	Path：/top-viewer/notify
+	Request_body: {"content": "通知框内容"}
+	
+7.http修改水印：
+	Path: /top-viewer/change_watermark
+	Request_body: {"watermark":"ZKM,1,oblique,28,20,red,normal,none,pink,1.00"}
+	
+	
+	
+Viewer命令行加水印的格式：
+暂时设定10个参数：内容、移动时间、倾斜类型、字体大小、字体粗细、字体颜色、字体类型、下划线、背景色、背景色透明度(取值0-1，0为完全不透明，1为完全透明)
+ex:  spice://10.30.10.21:5931?zkm,FakePasswd#zkm,3(水印位置刷新时间(单位s),为0为静止水印),normal,20,40,red,monospace,low,red,1.0
+倾斜类型选项：normal、oblique、italic（后两者区别不大）
+字体颜色选项：black、white、red...
+字体类型选型：normal、sans、serif、monospace
+下划线选项：single、double、low、none
+背景色：black、white、red...
+
+Viewer命令行禁止usb重定向：
+ex:  ./top-viewer   spice://10.30.10.21:5931   --disable-usb-usbredir
+
+Viewer命令行禁止文件拖拽：
+ex:  ./top-viewer   spice://10.30.10.21:5931   --disable-drag-file
+
+Viewer命令行禁用粘贴板 :
+ ex:  ./top-viewer   spice://10.30.10.21:5931  --disable-auto-clipboard
+ 
+Viewer命令行限制粘贴板字数：
+ ex： ./top-viewer   spice://10.30.10.21:5931   --max-clipboard 10
+
+
+
+	
